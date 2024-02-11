@@ -13,6 +13,8 @@ Press left/right shift to control the lead synth filter frequency using the mous
 
 Press left/right control to change the lead synth filter LFO freq using the mouse horizontal movement
 
-You can try different scales using the numbers 
+You can try different musical scales using the keyboard numbers 
 
-You can 
+You can load the next set pressing A
+
+You can reload the current set pressing R
