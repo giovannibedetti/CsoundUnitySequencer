@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f7320d16cfa97b40ad1aa29f8100dbb, type: 3}
+  m_Name: Set 2
+  m_EditorClassIdentifier: 
+  Melody: {fileID: 11400000, guid: 30f44a292ddc14f4eaba337a5d48f520, type: 2}
+  TenseMelody: {fileID: 11400000, guid: 5400a05a46eafaa44b964413cf48b11e, type: 2}
+  Bass: {fileID: 11400000, guid: 6e43290947d0060449c9f0bfd2e50337, type: 2}
+  TenseBass: {fileID: 11400000, guid: bdbf0ebb3b569c042bfd9ff6acead8e9, type: 2}
+  Rhythm: {fileID: 11400000, guid: a4007bec004e58b479801daff1e86de6, type: 2}
+  TenseRhythm: {fileID: 11400000, guid: 90dd5dfa56033d045a6eec0c36ac6acb, type: 2}
+  Chords: {fileID: 11400000, guid: 7ac3ab60c6557ad4daea35532b51802f, type: 2}
+  TenseChords: {fileID: 11400000, guid: 3865c830e5996264e8e879f882a24d3e, type: 2}

@@ -1,0 +1,1566 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 705507994}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 500
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 500
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 2
+    m_PVRDenoiserTypeDirect: 0
+    m_PVRDenoiserTypeIndirect: 0
+    m_PVRDenoiserTypeAO: 0
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 0
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 3
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    buildHeightMesh: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &705507993
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 705507995}
+  - component: {fileID: 705507994}
+  m_Layer: 0
+  m_Name: Directional Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &705507994
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705507993}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 1
+  m_Shape: 0
+  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 1
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &705507995
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705507993}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &963194225
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 963194228}
+  - component: {fileID: 963194227}
+  - component: {fileID: 963194226}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &963194226
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+--- !u!20 &963194227
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &963194228
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1407308623
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1407308626}
+  - component: {fileID: 1407308625}
+  - component: {fileID: 1407308624}
+  - component: {fileID: 1407308629}
+  - component: {fileID: 1407308628}
+  - component: {fileID: 1407308630}
+  m_Layer: 0
+  m_Name: Csound
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1407308624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1407308623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d20258c641c94f0ea3dc32cfe3de904, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  logCsoundOutput: 1
+  mute: 0
+  processClipAudio: 0
+  loudVolumeWarning: 1
+  loudWarningThreshold: 10
+  csoundScore: 
+  environmentSettings: []
+  _csoundFileGUID: 40f9cb91283000b4097160f5fccb04dd
+  _csoundString: "<Cabbage>\r\n\r\nform caption(\"Sequencer Experiment\") size(630,
+    360), guiMode(\"queue\"), pluginId(\"seqx\") colour(30, 10, 250)\r\n\r\nrslider   
+    bounds(0, 10, 80, 80), valueTextBox(1), textBox(1), channel(\"bpm\"), range(1, 
+    240, 120, 1), text(\"BPM\") \r\nrslider    bounds(80, 10, 80, 80), valueTextBox(1),
+    textBox(1), channel(\"amp\"),  range(0, 2, 0.75), text(\"Global Amp\")\r\nrslider   
+    bounds(160, 10, 80, 80) valueTextBox(1), textBox(1), channel(\"state\"),  range(0,
+    1, 0), text(\"State Fader\")\r\nlabel      bounds(225, 80, 120, 20), text(\"State
+    Fader Mode T/R\"), fontSize(10)\r\ncheckbox   bounds(260, 30, 40, 40), valueTextBox(1),
+    channel(\"stateMode\"), value(0), text(\"State Fader Mode T/R\")\r\n\r\nrslider   
+    bounds(0, 170, 80, 80), valueTextBox(1), textBox(1), channel(\"melodyAmp\"), 
+    range(0, 1, 0.35), text(\"Melody Amp\")\r\nrslider    bounds(80, 170, 80, 80),
+    valueTextBox(1), textBox(1), channel(\"bassAmp\"),  range(0, 1, 0.2), text(\"Bass
+    Amp\")\r\nrslider    bounds(160, 170, 80, 80), valueTextBox(1), textBox(1), channel(\"drumsAmp\"), 
+    range(0, 1, .94), text(\"Drums Amp\")\r\nrslider    bounds(240, 170, 80, 80),
+    valueTextBox(1), textBox(1), channel(\"chordsAmp\"),  range(0, 1, 0.2), text(\"Chords
+    Amp\")\r\n\r\n// LEAD\r\nvslider    bounds(330, 10, 60, 150), valueTextBox(1),
+    textBox(1), channel(\"leadNote\"),  range(24, 84, 60), text(\"Lead Note\")\r\nvslider   
+    bounds(390, 10, 60, 150), valueTextBox(1), textBox(1), channel(\"leadWave\"), 
+    range(0.01, 1, 0.25), text(\"Lead Wave\")\r\nvslider    bounds(450, 10, 60, 150),
+    valueTextBox(1), textBox(1), channel(\"leadFiltLFOFreq\"),  range(0.0, 8, 0),
+    text(\"FiltLFOFreq\")\r\n\r\nlabel      bounds(515, 10, 90, 20), text(\"Lead
+    Filter LFO ON/OFF\"), fontSize(10)\r\ncheckbox   bounds(540, 30, 40, 40), valueTextBox(1),
+    channel(\"leadFiltLFOToggle\"), value(1), text(\"Filter LFO ON/OFF\")\r\n\r\nrslider   
+    bounds(320, 170, 80, 80), valueTextBox(1), textBox(1), channel(\"leadAmp\"), 
+    range(0, 1, 0.35), text(\"Lead Amp\")\r\nrslider    bounds(320, 260, 80, 80),
+    valueTextBox(1), textBox(1), channel(\"leadGlide\"),  range(0, 1, 0.015), text(\"Lead
+    Glide\")\r\n\r\nrslider    bounds(400, 170, 80, 80), valueTextBox(1), textBox(1),
+    channel(\"leadFiltFreq\"),  range(0, 3000, 1200), text(\"Filter Freq\")\r\nrslider   
+    bounds(400, 260, 80, 80), valueTextBox(1), textBox(1), channel(\"leadFiltRes\"), 
+    range(0, 0.35, 0.1), text(\"Filter Res\")\r\n\r\n</Cabbage>\r\n<CsoundSynthesizer>\r\n<CsOptions>\r\n-n
+    -d -m 2          ; -n: bypass writing of sound to disk, -d: suppress all displays,
+    -m 2: message level: 2 - samples out of range\r\n</CsOptions>\r\n<CsInstruments>\r\n\r\n\r\n////////////////////////////\r\n//\r\n//
+    USER DEFINED OPCODES\r\n//\r\n////////////////////////////\r\n\r\n\r\n/** Checks
+    to see if item exists within array. Returns 1 if\r\n  true and 0 if false. \r\n 
+    from csound-live-code by Steven Yi\r\n  */\r\nopcode contains, i, ik[]\r\n  ival,
+    karr[] xin\r\n  indx = 0\r\n  iret = 0\r\n  while (indx < lenarray:i(karr)) do\r\n   
+    if (i(karr,indx) == ival) then\r\n      iret = 1\r\n      igoto end\r\n    endif\r\n   
+    indx += 1\r\n  od\r\nend:\r\n  xout iret\r\nendop \r\n\r\n\r\n/** Checks to see
+    if item exists within array. Returns 1 if\r\n  true and 0 if false. \r\n  from
+    csound-live-code by Steven Yi\r\n  */\r\nopcode contains, i, ii[]\r\n  ival,
+    iarr[] xin\r\n  indx = 0\r\n  iret = 0\r\n  while (indx < lenarray:i(iarr)) do\r\n   
+    if (iarr[indx] == ival) then\r\n      iret = 1\r\n      igoto end\r\n    endif\r\n   
+    indx += 1\r\n  od\r\nend:\r\n  xout iret\r\nendop\r\n\r\n\r\n// Various musical
+    scales\r\ngi_scale_major[] fillarray 0, 2, 4, 5, 7, 9, 11\r\ngi_scale_minor[]
+    fillarray 0, 2, 3, 5, 7, 8, 10\r\ngi_scale_harmonic_minor[] fillarray 0, 2, 3,
+    5, 7, 8, 11\r\ngi_scale_melodic_minor_asc[] fillarray 0, 2, 3, 5, 7, 9, 11\r\ngi_scale_blues[]
+    fillarray 0, 3, 5, 6, 7, 10\r\ngi_scale_pentatonic_major[] fillarray 0, 2, 4,
+    7, 9\r\ngi_scale_pentatonic_minor[] fillarray 0, 3, 5, 7, 10\r\ngi_scale_dorian[]
+    fillarray 0, 2, 3, 5, 7, 9, 10\r\ngi_scale_phrygian[] fillarray 0, 1, 3, 5, 7,
+    8, 10\r\ngi_scale_lydian[] fillarray 0, 2, 4, 6, 7, 9, 11\r\ngi_scale_mixolydian[]
+    fillarray 0, 2, 4, 5, 7, 9, 10\r\ngi_scale_locrian[] fillarray 0, 1, 3, 5, 6,
+    8, 10\r\n\r\ngi_cur_scale[] = gi_scale_minor\r\n\r\n\r\n/** Set the global scale.
+    */\r\nopcode set_scale, 0,S\r\n  Scale xin\r\n  if(strcmp(\"maj\", Scale) ==
+    0) then\r\n    gi_cur_scale = gi_scale_major\r\n  elseif(strcmp(\"min\", Scale)
+    == 0) then\r\n    gi_cur_scale = gi_scale_minor\r\n  elseif(strcmp(\"minh\",
+    Scale) == 0) then\r\n    gi_cur_scale = gi_scale_harmonic_minor\r\n  elseif(strcmp(\"mina\",
+    Scale) == 0) then\r\n    gi_cur_scale = gi_scale_melodic_minor_asc\r\n  elseif(strcmp(\"blues\",
+    Scale) == 0) then\r\n    gi_cur_scale = gi_scale_blues\r\n  elseif(strcmp(\"pentmaj\",
+    Scale) == 0) then\r\n    gi_cur_scale = gi_scale_pentatonic_major\r\n  elseif(strcmp(\"pentmin\",
+    Scale) == 0) then\r\n    gi_cur_scale = gi_scale_pentatonic_minor\r\n  elseif(strcmp(\"dor\",
+    Scale) == 0) then\r\n    gi_cur_scale = gi_scale_dorian\r\n  elseif(strcmp(\"phry\",
+    Scale) == 0) then\r\n    gi_cur_scale = gi_scale_phrygian\r\n  elseif(strcmp(\"lyd\",
+    Scale) == 0) then\r\n    gi_cur_scale = gi_scale_lydian\r\n  elseif(strcmp(\"mix\",
+    Scale) == 0) then\r\n    gi_cur_scale = gi_scale_mixolydian\r\n  elseif(strcmp(\"loc\",
+    Scale) == 0) then\r\n    gi_cur_scale = gi_scale_locrian\r\n  else\r\n    gi_cur_scale
+    = gi_scale_minor\r\n  endif\r\n  \r\n  prints \"Updated scale to: %s\", Scale\r\n 
+    printarray gi_cur_scale, \"%f\", \"\\nCurrent Scale:\"\r\nendop\r\n\r\n\r\n/**
+    Quantizes given MIDI note number to the given scale \r\n    (Base on pc:quantize
+    from Extempore)\r\n    from csound-live-code by Steven Yi\r\n      */\r\nopcode
+    pc_quantize, i, ii[]\r\n  ipitch_in, iscale[] xin\r\n  inotenum = round:i(ipitch_in)\r\n 
+    ipc = inotenum % 12\r\n  iout = inotenum\r\n  \r\n  indx = 0\r\n  while (indx
+    < 7) do\r\n    if(contains(ipc + indx, iscale) == 1) then\r\n      iout = inotenum
+    + indx\r\n      goto end\r\n    elseif (contains(ipc - indx, iscale) == 1) then\r\n     
+    iout = inotenum - indx\r\n      goto end\r\n    endif\r\n    indx += 1\r\n  od\r\n 
+    end:\r\n  xout iout\r\nendop\r\n\r\n\r\n/*\r\nStrayGetEl - Gets one element from
+    a string-array\r\n\r\nDESCRIPTION\r\nReturns (at i-rate) the element for ielindex
+    in String, or an empty string, if the element has not been found. By default,
+    the seperators between the elements are spaces and tabs. Others seperators can
+    be defined by their ASCII code number.\r\nRequires Csound 5.15 or higher\r\n\r\nSYNTAX\r\nSel
+    StrayGetEl Stray, ielindx [, isep1 [, isep2]]\r\n\r\nINITIALIZATION\r\nInput:\r\nStray
+    - a string as array\r\nielindx - the index of the element (starting with 0)\r\nisep1
+    - the first seperator (default=32: space)\r\nisep2 - the second seperator (default=9:
+    tab)\r\nIf the defaults are not used and just isep1 is given, it's the only seperator.
+    If you want two seperators (as in the dafault), you must give isep1 and isep2\r\nOutput:\r\nSel
+    - the element at position ielindx, as a string. if the element has not been found,
+    an empty string is returned\r\n\r\nCREDITS\r\njoachim heintz april 2010 / january
+    2012\r\n*/\r\n  opcode StrayGetEl, S, Sijj\r\n;returns the element at position
+    ielindx in Stray, or an empty string if the element has not been found\r\nStray,
+    ielindx, isepA, isepB xin\r\n;;DEFINE THE SEPERATORS\r\nisep1     =         (isepA
+    == -1 ? 32 : isepA)\r\nisep2     =         (isepA == -1 && isepB == -1 ? 9 :
+    (isepB == -1 ? isep1 : isepB))\r\nSep1      sprintf   \"%c\", isep1\r\nSep2     
+    sprintf   \"%c\", isep2\r\n;;INITIALIZE SOME PARAMETERS\r\nilen      strlen   
+    Stray\r\nistartsel =         -1; startindex for searched element\r\niendsel  
+    =         -1; endindex for searched element\r\niel       =         0; actual
+    number of element while searching\r\niwarleer  =         1\r\nindx      =        
+    0\r\n if ilen == 0 igoto end ;don't go into the loop if Stray is empty\r\nloop:\r\nSnext    
+    strsub    Stray, indx, indx+1; next sign\r\nisep1p    strcmp    Snext, Sep1;
+    returns 0 if Snext is sep1\r\nisep2p    strcmp    Snext, Sep2; 0 if Snext is
+    sep2\r\n;;NEXT SIGN IS NOT SEP1 NOR SEP2\r\nif isep1p != 0 && isep2p != 0 then\r\n
+    if iwarleer == 1 then; first character after a seperator \r\n  if iel == ielindx
+    then; if searched element index\r\nistartsel =         indx; set it\r\niwarleer 
+    =         0\r\n  else \t\t\t;if not searched element index\r\niel       =        
+    iel+1; increase it\r\niwarleer  =         0; log that it's not a seperator \r\n 
+    endif \r\n endif \r\n;;NEXT SIGN IS SEP1 OR SEP2\r\nelse \r\n if istartsel >
+    -1 then; if this is first selector after searched element\r\niendsel   =        
+    indx; set iendsel\r\n          igoto     end ;break\r\n else\t\r\niwarleer  =        
+    1\r\n endif \r\nendif\r\n          loop_lt   indx, 1, ilen, loop \r\nend:\r\nSout     
+    strsub    Stray, istartsel, iendsel\r\n          xout      Sout\r\n  endop \r\n\r\n\r\n/*\r\nStrayLen
+    - Returns the length of an array-string\r\n\r\nDESCRIPTION\r\nReturns the number
+    of elements in Stray. Elements are defined by two seperators as ASCII coded characters:
+    isep1 defaults to 32 (= space), isep2 defaults to 9 (= tab). If just one seperator
+    is used, isep2 equals isep1.\r\n\r\n\r\nSYNTAX\r\nilen StrayLen Stray [, isep1
+    [, isep2]]\r\n\r\nINITIALIZATION\r\nStray - a string as array\r\nisep1 - the
+    first seperator (default=32: space)\r\nisep2 - the second seperator (default=9:
+    tab) \r\n\r\nCREDITS\r\njoachim heintz april 2010\r\n*/\r\n  opcode StrayLen,
+    i, Sjj\r\n;returns the number of elements in Stray. elements are defined by two
+    seperators as ASCII coded characters: isep1 defaults to 32 (= space), isep2 defaults
+    to 9 (= tab). if just one seperator is used, isep2 equals isep1\r\nStray, isepA,
+    isepB xin\r\n;;DEFINE THE SEPERATORS\r\nisep1     =         (isepA == -1 ? 32
+    : isepA)\r\nisep2     =         (isepA == -1 && isepB == -1 ? 9 : (isepB == -1
+    ? isep1 : isepB))\r\nSep1      sprintf   \"%c\", isep1\r\nSep2      sprintf  
+    \"%c\", isep2\r\n;;INITIALIZE SOME PARAMETERS\r\nilen      strlen    Stray\r\nicount   
+    =         0; number of elements\r\niwarsep   =         1\r\nindx      =        
+    0\r\n if ilen == 0 igoto end ;don't go into the loop if String is empty\r\nloop:\r\nSnext    
+    strsub    Stray, indx, indx+1; next sign\r\nisep1p    strcmp    Snext, Sep1;
+    returns 0 if Snext is sep1\r\nisep2p    strcmp    Snext, Sep2; 0 if Snext is
+    sep2\r\n if isep1p == 0 || isep2p == 0 then; if sep1 or sep2\r\niwarsep   =        
+    1; tell the log so\r\n else \t\t\t\t; if not \r\n  if iwarsep == 1 then\t; and
+    has been sep1 or sep2 before\r\nicount    =         icount + 1; increase counter\r\niwarsep  
+    =         0; and tell you are ot sep1 nor sep2 \r\n  endif \r\n endif\t\r\n         
+    loop_lt   indx, 1, ilen, loop \r\nend:      xout      icount\r\n  endop\r\n\r\n\r\n/*\r\n   
+    Parse a 2D Note Array using ASCII separators from a string generated by an external
+    software\r\n    A note is a struct with a note number, a volume and a duration\r\n*/\r\nopcode
+    Parse2DNoteArray, i[][], Sii\r\n    String, iSepA, iSepB xin\r\n\r\n    //prints
+    \"\\nParse2DNoteArray: %s\", String\r\n    iLen = StrayLen(String, iSepA)\r\n   
+    iCounter = 0\r\n    \r\n    iArr[][] init iLen, 3\r\n    \r\n    while iCounter
+    < iLen do\r\n        SNote = StrayGetEl(String, iCounter, iSepA)\r\n        ;prints
+    SNote \r\n        \r\n        iNoteNum = strtod(StrayGetEl(SNote, 0, iSepB))\r\n       
+    iVol = strtod(StrayGetEl(SNote, 1, iSepB))\r\n        iDur = strtod(StrayGetEl(SNote,
+    2, iSepB))\r\n        iRow[] = fillarray(iNoteNum, iVol, iDur)\r\n        iArr
+    = setrow(iRow, iCounter)\r\n        ; \"\\n %d: %d, %d, %d\", iCounter, iNoteNum,
+    iVol, iDur\r\n        iCounter += 1\r\n    od\r\n\r\n    ;printarray iArr, \"%d\",
+    \"\\n2D Array: \"\r\n    \r\n    xout iArr\r\nendop\r\n\r\n\r\n/*\r\n    Parse
+    a 3D Note Array using ASCII separators from a string generated by an external
+    software\r\n    The array contains a list of Steps, each step can contain one
+    or more notes.\r\n    A note is a struct with a note number, a volume and a duration\r\n*/\r\nopcode
+    Parse3DNoteArray, i[][][], Siii\r\n\r\n    String, iSepA, iSepB, iSepC xin\r\n   
+    iCounter = 0\r\n    iLen = StrayLen(String, iSepA)\r\n    ;prints \"\\n\\n3D
+    Array Length: %d\\n\", iLen   \r\n    \r\n    ; we have to overcome the possible
+    difference in length of the 2D arrays: they could have a different element count\r\n   
+    ; but this is not supported in Csound, where subarrays of multidimensional arrays
+    must have the same length\r\n    ; so first parse 2D arrays and keep track of
+    the biggest size\r\n    iMaxSize init 0\r\n    while iCounter < iLen do\r\n   
+    \r\n        Step = StrayGetEl(String, iCounter, iSepA)\r\n        ;prints \"\\nStep[%d]:
+    %s\\n\", iCounter, Step\r\n        iSize = StrayLen(Step, iSepB)\r\n        ;prints
+    \"\\nStep[%d] size: %d\", iSize\r\n        \r\n        if iSize > iMaxSize then\r\n           
+    iMaxSize = iSize\r\n        endif\r\n        \r\n        iCounter += 1\r\n   
+    od\r\n    \r\n    ; init the 3D array with the found max size on the 2nd dimension\r\n   
+    iArr[][][] init iLen, iMaxSize, 3\r\n    \r\n    ; now it's time to copy 2D arrays
+    in the 3D array\r\n    iCount1 = 0\r\n    while iCount1 < iLen do\r\n       
+    \r\n        Step = StrayGetEl(String, iCount1, iSepA)\r\n        ;prints \"\\n\\nStep[%d]:
+    %s\\n\", iCount1, Step\r\n        iStep[][] Parse2DNoteArray Step, iSepB, iSepC\r\n       
+    \r\n        iCount2 = 0\r\n        while iCount2 < iMaxSize do\r\n           
+    iCount3 = 0\r\n            \r\n            ; we still need to skip in case the
+    step array has not enough elements\r\n            ; the skipped elements will
+    remain unset\r\n            iSize lenarray iStep, 1\r\n            ;prints \"\\ncurrent
+    step [%d][%d] size: %d\", iCount1, iCount2, iSize\r\n            if iCount2 <
+    iSize then\r\n                while iCount3 < 3 do\r\n                    iVal
+    = iStep[iCount2][iCount3]\r\n                    ;prints \"\\n\\tsetting value
+    [%d][%d][%d]: : %f\", iCount1, iCount2, iCount3, iVal\r\n                   
+    iArr[iCount1][iCount2][iCount3] = iVal\r\n                    iCount3 += 1\r\n               
+    od\r\n            else\r\n                ;prints \"\\n\\tnothing to set\"\r\n           
+    endif\r\n            iCount2 += 1\r\n        od\r\n        iCount1 += 1\r\n   
+    od\r\n    xout iArr\r\nendop\r\n\r\n\r\n/////////////////////////////\r\n//\r\n//
+    VARIABLES DECLARATIONS\r\n//\r\n////////////////////////////\r\n\r\nsr = 48000\r\nkr
+    = 48000\r\nksmps = 1\r\nnchnls = 2\r\n0dbfs = 1\r\n\r\n\r\ninstr INIT ; fake
+    empty instrument just to have a quick hook to this section ;)\r\nendin\r\n\r\n//
+    MELODY\r\n;gSMelody                init \"0,0,0:_60,1,1:_65,1,1:_67,1,1:_0,0,0:_0,0,0:_0,0,0:_0,0,0:_0,0,0:_0,0,0:_0,0,0:_0,0,0:_0,0,0:_0,0,0:_67,1,1:_72,1,1:_\"   
+    ; init \"60,1,1.5:-1,1,0.5:-1,1,0.5:62,1,0.5:64,1,0.5:67,1,0.5:70,1,0.5:67,1,0.5:68,1,1.5:-1,1,0.5:-1,1,0.5:67,1,0.5:66,1,2:-1,1,0.5:-1,1,0.5:62,1,0.5:\"
+    ;TEST\r\n;gSTenseMelody           init \"36,1,1:_43,1,1:_48,1,1:_51,1,1:_55,1,1:_60,1,1:_63,1,1:_67,1,1:_68,1,1:_63,1,1:_60,1,1:_56,1,1:_58,1,1:_62,1,1:_65,1,1:_70,1,1:_73,1,1:68,1,1:\";init
+    \"48,1,1:_55,1,1:_60,1,1:_63,1,1:_67,1,1:_72,1,1:_75,1,1:_79,1,1:_80,1,1:_75,1,1:_72,1,1:_68,1,1:_70,1,1:_74,1,1:_77,1,1:_82,1,1:_\";
+    init \"60,1,1:0,1,0.5:60,1,1:0,1,0.5:62,1,1:0,1,0.5:60,1,1:0,1,0.5:63,1,1:0,1,0.5:60,1,1:0,1,1:65,1,1:0,1,0.5:63,1,1:0,1,0.5:\"                        
+    ;TEST\r\ngSMelody                chnexport \"melody\", 1          ; will receive
+    the string from an external software\r\ngSTenseMelody           chnexport \"tenseMelody\",
+    1\r\n\r\ngiMelodyLen             init 0 \r\n\r\n\r\n// BASS\r\n;gSBass                
+    init \"0,0,0:_0,0,0:_0,0,0:_0,0,0:_36,1,4:_0,0,0:_0,0,0:_0,0,0:_0,0,0:_0,0,0:_0,0,0:_0,0,0:_0,0,0:_0,0,0:_0,0,0:_0,0,0:_0,0,0:_0,0,0:_0,0,0:_0,0,0:_41,1,4:_0,0,0:_0,0,0:_0,0,0:_0,0,0:_0,0,0:_0,0,0:_0,0,0::_39,1,4_0,0,0:_0,0,0:_0,0,0:_\"
+    ; init \"36,1,4:0,1,4:0,1,4:0,1,4:36,1,4:0,1,4:0,1,4:0,1,4:36,1,4:0,1,4:0,1,4:0,1,4:36,1,4:0,1,4:0,1,4:0,1,4:32,1,4:0,1,4:0,1,4:0,1,4:32,1,4:0,1,4:0,1,4:0,1,4:29,1,4:0,1,4:0,1,4:0,1,4:29,1,4:0,1,4:0,1,4:0,1,4:\"\r\n;gSTenseBass           
+    init \"36,1,4:_0,0,0:_0,0,0:_0,0,0:_36,1,4:_0,0,0:_0,0,0:_0,0,0:_36,1,4:_0,0,0:_0,0,0:_0,0,0:_36,1,4:_0,0,0:_0,0,0:_0,0,0:_32,1,4:_0,0,0:_0,0,0:_0,0,0:_32,1,4:_0,0,0:_0,0,0:_0,0,0:_29,1,4:_0,0,0:_0,0,0:_0,0,0:_29,1,4:_0,0,0:_0,0,0:_0,0,0:_\";
+    init \"36,1,4:0,1,4:0,1,4:0,1,4:36,1,4:0,1,4:0,1,4:0,1,4:36,1,4:0,1,4:0,1,4:0,1,4:36,1,4:0,1,4:0,1,4:0,1,4:32,1,4:0,1,4:0,1,4:0,1,4:32,1,4:0,1,4:0,1,4:0,1,4:29,1,4:0,1,4:0,1,4:0,1,4:29,1,4:0,1,4:0,1,4:0,1,4:\"\r\ngSBass                 
+    chnexport \"bass\", 1\r\ngSTenseBass             chnexport \"tenseBass\", 1\r\n\r\ngiBassLen              
+    init 0\r\n\r\n\r\n// DRUMS\r\n;gSRhythm               init \"1,1,1:_0,0,0:_0,0,0:_0,0,0:_3,1,1:_0,0,0:_0,0,0:_0,0,0:_0,0,0:_0,0,0:_0,0,0:_0,0,0:_3,1,1:_0,0,0:_0,0,0:_0,0,0:_1,1,1:_0,0,0:_1,1,1:_0,0,0:_3,1,1:_0,0,0:_0,0,0:_0,0,0:_0,0,0:_0,0,0:_0,0,0:_0,0,0:_3,1,1:_0,0,0:_0,0,0:_0,0,0:_\"
+    ;init \"1,1,1:8,1,1:_2,1,1:_3,1,1:_2,1,1:_1,1,1:_2,1,1:_3,1,1:_2,1,1:_\"                  
+    ;TEST\r\n;gSTenseRhythm          init \"1,1,1:_0,0,0:_0,0,0:_0,0,0:_3,1,1:_0,0,0:_0,0,0:_0,0,0:_2,1,1:_0,0,0:_0,0,0:_0,0,0:_3,1,1:_0,0,0:_0,0,0:_0,0,0:_1,1,1:_0,0,0:_0,0,0:_0,0,0:_3,1,1:_0,0,0:_0,0,0:_0,0,0:_2,1,1:_0,0,0:_0,0,0:_0,0,0:_4,1,1:_0,0,0:_0,0,0:_0,0,0:_\";
+    init \"1,1,1:8,1,1:_1,1,1:2,1,1:_3,1,1:_1,1,1:2,1,1:_1,1,1:_2,1,1:_3,1,1:_2,1,1:_\"      
+    ;TEST\r\ngSRhythm                chnexport \"rhythm\", 1\r\ngSTenseRhythm          
+    chnexport \"tenseRhythm\", 1\r\n\r\ngiRhythmLen             init 0\r\n\r\n\r\n//
+    CHORDS\r\ngSChords                chnexport \"chords\", 1\r\ngSTenseChords          
+    chnexport \"tenseChords\", 1\r\n\r\ngiChordsLen             init 0\r\n\r\n; The
+    total number of steps in the sequencer\r\n;giTickSteps             init 64                        
+    ; TEST\r\ngiTickSteps             chnexport \"tickSteps\", 1       ; get the
+    steps subdivision from external software\r\n;giBars                  init 8\r\ngiBars                 
+    chnexport \"bars\", 1            ; get the number of bars from external software\r\n\r\ngiMelodyTicks          
+    chnexport \"melodyTicks\", 1\r\ngiRhythmTicks           chnexport \"rhythmTicks\",
+    1\r\ngiBassTicks             chnexport \"bassTicks\", 1\r\ngiChordsTicks          
+    chnexport \"chordsTicks\", 1\r\n\r\n; only one ratio for variants of Melody,
+    Bass, Rhythm and Chords\r\n; this is to avoid desyncing in the pointer when switching
+    between them\r\n; this also means that arrays of the same instrument should have
+    the same length\r\ngiMelodyRatio           init 1\r\ngiBassRatio            
+    init 1\r\ngiRhythmRatio           init 1\r\ngiChordsRatio           init 1\r\n\r\n//
+    Arrays holding notes\r\n; melody\r\ngiMelody[][][]              init 1, 1, 1\r\ngiTenseMelody[][][]        
+    init 1, 1, 1\r\n\r\n; bass\r\ngiBass[][][]                init 1, 1, 1\r\ngiTenseBass[][][]          
+    init 1, 1, 1\r\n\r\n; rhythm\r\ngiRhythm[][][]              init 1, 1, 1\r\ngiTenseRhythm[][][]        
+    init 1, 1, 1\r\n\r\n; chords\r\ngiChords[][][]              init 1, 1, 1\r\ngiTenseChords[][][]        
+    init 1, 1, 1\r\n\r\n// MELODY global Audio Outputs (Bus)\r\ngaMelodyL, gaMelodyR   
+    init 0\r\n\r\n// DRUMS global Audio Outputs (Bus)\r\ngaDrumsL, gaDrumsR     
+    init 0\r\n\r\n// Reverb FX global Audio Outputs (Bus)\r\ngaRevL, gaRevR         
+    init 0\r\n\r\n// Lead Delay FX global Audio Outputs (Bus)\r\ngaDelayL, gaDelayR     
+    init 0\r\n\r\n// Stutter FX global Audio Outputs (Bus)\r\ngaStutSendL            
+    init 0\r\ngaStutSendR             init 0\r\n\r\n// Drums Delay FX Audio Outputs
+    (Bus)\r\ngaGlobalDelayL          init 0\r\ngaGlobalDelayR          init 0\r\n\r\n//
+    Global Audio Output (Bus)\r\ngaGlobalOutputL         init 0\r\ngaGlobalOutputR        
+    init 0\r\n\r\n;giGlobalOutputTableL     ftgen   0, 0, 2^16, 7, 0, 2^16, 0 ; a
+    table to hold 1 second of output samples, for further processing on the global
+    output\r\n;giGlobalOutputTableR     ftgen   0, 0, 2^16, 7, 0, 2^16, 0 ; a table
+    to hold 1 second of output samples, for further processing on the global output\r\n\r\n//
+    DRUMS FUNCTIONS\r\ngiSine\t\t            ftgen\t0,0,65536,10,1\t\t; A SINE WAVE\r\ngiCos\t\t           
+    ftgen\t0,0,65536,9,1,1,90\t; A COSINE WAVE\r\n\r\n// LEAD WAVE PARTIALS FUNCTION\r\ngiPartials
+    = ftgen(0, 0, 2048, 10, 1, .3, .5, .2, .4)\r\n\r\n\r\n// Musical scale used by
+    Lead instr\r\nset_scale(\"blues\")\r\n\r\n\r\n// PERFORMANCE VARIABLES\r\n\r\n//
+    General\r\ngkAmp init 0.1\r\ngkBPM init 120\r\ngkState init 0\r\ngkStateMode
+    init 0\r\n\r\n// Amplitudes\r\ngkMelodyAmp init 0.5\r\ngkBassAmp   init 0.3\r\ngkDrumsAmp 
+    init 0.9\r\ngkChordsAmp init 0.3\r\n\r\n// Lead Sound\r\ngkLeadAmp   init 0.6\r\ngkLeadGlide
+    init 0.05\r\ngkLeadNote  init 60\r\ngkLeadWave  init 0.5\r\ngkLeadFiltFreq init
+    1200\r\ngkLeadFiltRes init 0.2\r\ngkLeadFiltLFOToggle init 0\r\ngkLeadFiltLFOFreq
+    init 0\r\n\r\ngkLeadRevSend init 0.2\r\ngkLeadDelaySend init 0.3\r\ngkLeadDelayLvl
+    init 0.2\r\ngkLeadDelayL init 0.35\r\ngkLeadDelayR init 0.4\r\n\r\n// Reverb\r\ngkRevLev
+    init 0.6\r\ngkRoom  init 0.7\r\ngkHF    init 0.8\r\n\r\n// hardcoded values for
+    now for:\r\n// Delay\r\n;...\r\n// Stutter\r\n;...\r\n\r\n\r\n////////////////////////////\r\n//\r\n//
+    INITIALIZATION INSTRUMENT\r\n//\r\n// Parses the strings received from an external
+    software to create the note arrays used for playback\r\n// \r\n////////////////////////////\r\ninstr
+    INITIALIZATION\r\n\r\niError init 0\r\n\r\n// Melody\r\niMelody[][][] Parse3DNoteArray
+    gSMelody, 95, 58, 44  ; ASCII Codes Separators in string: 95 --> underscore '_',
+    58 --> colon ':', 44 --> comma ','\r\niTenseMelody[][][] Parse3DNoteArray gSTenseMelody,
+    95, 58, 44\r\n\r\niMelodyLen lenarray iMelody\r\niAltMelodyLen lenarray iTenseMelody
+    \r\n\r\nif iMelodyLen != iAltMelodyLen then\r\n    prints \"ERROR! Melody arrays
+    length differ! This is not permitted to avoid desync issues\\n\"\r\n    iError
+    = -1\r\nendif\r\n\r\n// Bass\r\niBass[][][] Parse3DNoteArray gSBass, 95, 58,
+    44\r\niTenseBass[][][] Parse3DNoteArray gSTenseBass, 95, 58, 44\r\n\r\niBassLen
+    lenarray iBass\r\niTenseBassLen lenarray iTenseBass\r\n\r\nif iBassLen != iTenseBassLen
+    then\r\n   prints \"ERROR! Bass arrays length differ! This is not permitted to
+    avoid desync issues\\n\"\r\n   iError = -1\r\nendif\r\n\r\n;prints \"\\n\\nBASIC
+    RHYTHM: %s\", gSRhythm\r\n;prints \"\\n\\nTENSE RHYTHM: %s\", gSTenseRhythm\r\n\r\n//
+    Rhythm\r\niRhythm[][][] Parse3DNoteArray gSRhythm, 95, 58, 44\r\niTenseRhythm[][][]
+    Parse3DNoteArray gSTenseRhythm, 95, 58, 44\r\n\r\niRhythmLen lenarray iRhythm\r\niTenseRhythmLen
+    lenarray iTenseRhythm\r\n\r\nif iRhythmLen != iTenseRhythmLen then\r\n    prints
+    \"ERROR! Rhythm arrays length differ! This is not permitted to avoid desync issues\\n\"\r\n   
+    iError = -1\r\nendif\r\n\r\n// Chords\r\niChords[][][] Parse3DNoteArray gSChords,
+    95, 58, 44\r\niTenseChords[][][] Parse3DNoteArray gSTenseChords, 95, 58, 44\r\n\r\niChordsLen
+    lenarray iChords\r\niTenseChordsLen lenarray iTenseChords\r\n\r\nif iChordsLen
+    != iTenseChordsLen then\r\n    prints \"ERROR! Chords arrays length differ! This
+    is not permitted to avoid desync issues\\n\"\r\n    iError = -1\r\nendif\r\n\r\n;
+    exit early if any of the errors above occurred\r\nif iError == -1 then\r\n   
+    turnoff\r\nendif\r\n\r\ngiMelody = iMelody\r\ngiTenseMelody = iTenseMelody\r\ngiMelodyLen
+    = iMelodyLen\r\ngiBass = iBass\r\ngiTenseBass = iTenseBass\r\ngiBassLen = iBassLen\r\ngiRhythm
+    = iRhythm\r\ngiTenseRhythm = iTenseRhythm\r\ngiRhythmLen = iRhythmLen\r\ngiChords
+    = iChords\r\ngiTenseChords = iTenseChords\r\ngiChordsLen = iChordsLen\r\n\r\n;prints
+    \"giRhythmLen: %d, giRhythmTicks: %d\", giRhythmLen, giRhythmTicks\r\n\r\n; calculates
+    the ratio of the various sequences compared to the tick subdivision\r\ngiMelodyRatio
+    = giTickSteps / giMelodyTicks ;giTickSteps / (giMelodyLen / giMelodyTicks) \r\ngiBassRatio
+    = giTickSteps / giBassTicks ;giTickSteps / (giBassLen / giBassTicks) \r\ngiRhythmRatio
+    = giTickSteps / giRhythmTicks ;giTickSteps / (giRhythmLen / giRhythmTicks)  \r\ngiChordsRatio
+    = giTickSteps / giChordsTicks\r\n\r\nprints \"giMelodyRatio: %f, giBassRatio:
+    %f, giRhythmRatio: %f, giChordsRatio: %f\\n\\n\", giMelodyRatio, giBassRatio,
+    giRhythmRatio, giChordsRatio\r\n\r\nendin\r\n\r\n\r\n////////////////////////////\r\n//\r\n//
+    LEAD INSTRUMENT\r\n//\r\n// A punchy lead sound meant to be controlled with the
+    hand position, using X, Y and Z to alter its parameters\r\n// \r\n// X : FILTER
+    FREQ\r\n// Y : NOTE PITCH\r\n// Z : DISTORTION\r\n// \r\n// ROTATION Z : FILTER
+    RES\r\n// \r\n// For the instrument name we're using a number (and a string for
+    clarity purposes) so that we can start (i1 0 -1) / stop (i-1 0 -1) the instrument
+    from an external software\r\n// It is not possible to start stop an instrument
+    using its string name\r\n//\r\n////////////////////////////\r\ninstr 1\r\n\r\n 
+    start:\r\n  ipan = 0.5\r\n  iNote = i(gkLeadNote)\r\n  kFrqInScale = pc_quantize(iNote,
+    gi_cur_scale)\r\n  rireturn\r\n  \r\n  kNoteChanged = changed(gkLeadNote)\r\n 
+    if kNoteChanged == 1 then\r\n    reinit start\r\n  endif\r\n  \r\n  kAmp portk
+    gkLeadAmp, 0.1\r\n  kFreq = portk(mtof:k(kFrqInScale), gkLeadGlide)\r\n  kLeadDist
+    portk gkLeadWave, 0.1\r\n  kLeadFiltFreq portk gkLeadFiltFreq, 0.1\r\n  kLeadFiltRes
+    portk gkLeadFiltRes, 0.1\r\n  kLeadWave = portk(gkLeadWave, 0.05)\r\n  kState
+    = portk(gkState, 0.05)\r\n  \r\n  ;kLmt = rspline(1.2, 24, gkBPM / 60, gkBPM
+    / 60)\r\n  ;kLeadWave *= kLmt\r\n  kLeadWave *= 18\r\n  aPhs  = phasor:a(kFreq)
+    ^ kLeadWave\r\n  aSig = tablei:a(aPhs, giPartials, 1, 0, 1)\r\n  kLeadWave2 =
+    kLeadWave * 14\r\n  aPhs2 = phasor:a(kFreq/2) ^ kLeadWave2\r\n  aSig2 = tablei:a(aPhs2,
+    giPartials, 1, 0, 1)\r\n  ;aSig2 gendy 1, 4, 1, 1, 1, kFreq / 2, kFreq / 2, 0.5,
+    0.5\r\n  kSig2Mix = kState > 0.5 ? kState - 0.5 : 0\r\n  aMix = (aSig + aSig2
+    * kSig2Mix) /// 2 // always keep aSig in, and only use half of aSig2 amp\r\n 
+    \r\n  if gkLeadFiltLFOToggle == 1 then\r\n  \r\n      kLFO lfo kLeadFiltFreq,
+    gkBPM * 4 / (60 * gkLeadFiltLFOFreq), 1\r\n      kLFO += kLeadFiltFreq / 2\r\n     
+    //kLFO *= 0.95\r\n      kLeadFiltFreq += kLFO\r\n  \r\n  endif\r\n  \r\n  aFilt
+    moogvcf2 aMix, kLeadFiltFreq, kLeadFiltRes\r\n  aEnv madsr 0.1, 0.001, 1, 0.1\r\n 
+    aSig = aFilt * aEnv\r\n  ;outs aSig, aSig ;TEST\r\n  aL, aR pan2 aSig, ipan\r\n\r\n 
+    aOutL = aL * kAmp\r\n  aOutR = aR * kAmp\r\n  \r\n  gaDelayL += aOutL * gkLeadDelaySend
+    \r\n  gaDelayR += aOutR * gkLeadDelaySend\r\n  \r\n  gaRevL += aOutL * gkLeadRevSend\r\n 
+    gaRevR += aOutR * gkLeadRevSend\r\n  \r\n  ;outs(aOutL, aOutR)\r\n  gaGlobalOutputL
+    += aOutL\r\n  gaGlobalOutputR += aOutR\r\n  \r\nendin\r\n\r\n\r\n////////////////////////////\r\n//\r\n//
+    TICK GENERATOR INSTRUMENT\r\n//\r\n// Generates instances of the TICK INSTRUMENT
+    depending on BPM and Tick division\r\n// \r\n////////////////////////////\r\ninstr
+    GENERATOR\r\n\r\niTick init 0\r\niBPS init 1\r\niBarLen init 4     ; 4/4\r\n\r\nreset:\r\niBPS
+    = i(gkBPM) / 60\r\niBarDur = iBarLen * (1 / iBPS)\r\niTime = iBarDur / giTickSteps\r\n\r\ntimout
+    0, iTime, cont\r\nreinit reset\r\n\r\ncont:\r\nschedule \"TICK\", 0, iTime, iTick\r\n\r\niTick
+    += 1\r\n\r\nif iTick == (giTickSteps * giBars) then\r\n    iTick = 0\r\nendif\r\n\r\nendin\r\n\r\n\r\n////////////////////////////\r\n//\r\n//
+    TICK INSTRUMENT\r\n//\r\n// Performs a step in the sequencer, starting instances
+    of audio instruments\r\n// \r\n////////////////////////////\r\ninstr TICK\r\n\r\n;prints
+    \"\\nTick! [%d] duration: %f\\n\", p4, p3\r\n    \r\nschedule \"MELODY\", 0,
+    p3, p4 ; p3 is the duration of the Tick, \r\nschedule \"BASS\", 0, p3, p4   ;
+    it will be used to determine the length of a note, \r\nschedule \"DRUMS\", 0,
+    p3, p4  ; that is a multiple of that\r\nschedule \"CHORDS\", 0, p3, p4 ; p4 is
+    the index of the tick\r\n\r\nendin\r\n\r\n\r\n////////////////////////////\r\n//\r\n//
+    MELODY INSTRUMENT\r\n//\r\n// Performs a step for melody instrument, choosing
+    which melody to play\r\n// \r\n////////////////////////////\r\ninstr MELODY\r\n\r\niTickDur
+    = p3\r\niTick = p4\r\niMod = iTick % giMelodyRatio\r\niMode = i(gkStateMode)\r\n;prints
+    \"Melody Tick! [%d] duration: %f, iMod: %d\\n\", iTick, iTickDur, iMod\r\n\r\nif
+    iMod != 0 then\r\n    ;prints \"\\t\\tNot playing for iTick %d, turning off MELODY\",
+    iTick\r\n    ; exit the instrument if we don't have notes at this tick resolution\r\n   
+    turnoff\r\nelse\r\n    iState = iMode == 1 ? rnd(i(gkState)) : i(gkState)\r\n   
+    iStep = int(iTick / giMelodyRatio) % giMelodyLen\r\n\r\n    if iState < 0.5 then\r\n       
+    iBlockLen lenarray giMelody, 2\r\n    else\r\n        iBlockLen lenarray giTenseMelody,
+    2\r\n    endif\r\n    \r\n    iCounter = 0\r\n    \r\n    while iCounter < iBlockLen
+    do\r\n        \r\n        if (iState < 0.5) then\r\n            iNote = giMelody[iStep][iCounter][0]\r\n           
+    iVol = giMelody[iStep][iCounter][1] * i(gkMelodyAmp)\r\n            iDur = giMelody[iStep][iCounter][2]
+    * giMelodyRatio * iTickDur\r\n        else\r\n            iNote = giTenseMelody[iStep][iCounter][0]\r\n           
+    iVol = giTenseMelody[iStep][iCounter][1] * i(gkMelodyAmp)\r\n            iDur
+    = giTenseMelody[iStep][iCounter][2] * giMelodyRatio * iTickDur\r\n        endif\r\n       
+    \r\n        iCounter += 1\r\n        ;prints \"\\nMELODY iNote: %d, iVol: %f,
+    iDur: %f\\n\", iNote, iVol, iDur\r\n        \r\n        if iNote >= 0 && iDur
+    > 0 && iVol > 0 then\r\n            schedule \"MELODY_1\", 0, iDur, iVol, mtof:i(iNote)\r\n       
+    endif\r\n    od\r\n\r\nendif\r\n\r\nendin\r\n\r\n\r\n////////////////////////////\r\n//\r\n//
+    BASS INSTRUMENT\r\n//\r\n// Performs a step for bass instrument\r\n// \r\n////////////////////////////\r\ninstr
+    BASS\r\niTickDur = p3\r\niTick = p4\r\niMod = iTick % giBassRatio\r\niMode =
+    i(gkStateMode)\r\n;prints \"Bass Tick! [%d] duration: %f, iMod: %d\\n\", iTick,
+    iTickDur, iMod\r\n\r\nif iMod != 0 then\r\n    ;prints \"\\t\\tNot playing for
+    iTick %d, turning off BASS\", iTick\r\n    ; exit the instrument if we don't
+    have notes at this tick resolution\r\n    turnoff\r\nelse\r\n    ;prints \"\\n----->BASS
+    iMod: %d\", iMod\r\n    iState = iMode == 1 ? rnd(i(gkState)) : i(gkState)\r\n   
+    iStep = int(iTick / giBassRatio) % giBassLen\r\n\r\n    if iState < 0.5 then\r\n       
+    iBlockLen lenarray giBass, 2\r\n    else\r\n        iBlockLen lenarray giTenseBass,
+    2\r\n    endif\r\n    \r\n    iCounter = 0\r\n    \r\n    while iCounter < iBlockLen
+    do\r\n        \r\n        iRnd = iState   ;= rnd(iState)\r\n        \r\n       
+    if (iRnd < 0.5) then\r\n            iNote = giBass[iStep][iCounter][0]\r\n           
+    iVol = giBass[iStep][iCounter][1]\r\n            iDur = giBass[iStep][iCounter][2]
+    * giBassRatio * iTickDur\r\n        else\r\n            iNote = giTenseBass[iStep][iCounter][0]\r\n           
+    iVol = giTenseBass[iStep][iCounter][1]\r\n            iDur = giTenseBass[iStep][iCounter][2]
+    * giBassRatio * iTickDur\r\n        endif\r\n        \r\n        iCounter +=
+    1\r\n        prints \"\\n[%d][%d] BASS iNote: %d, iVol: %f, iDur: %f, iTickDur:
+    %f, giBassRatio: %f\\n\", iTick, iStep, iNote, iVol, iDur, iTickDur, giBassRatio\r\n       
+    \r\n        if iNote >= 0 && iDur > 0 && iVol > 0 then\r\n            schedule
+    \"BASS_3\", 0, iDur, iVol, mtof:i(iNote)\r\n        endif\r\n    od\r\n    \r\nendif\r\n\r\nendin\r\n\r\n\r\n////////////////////////////\r\n//\r\n//
+    DRUMS INSTRUMENT\r\n//\r\n// Performs a step for drum instruments, starting subinstances
+    of drums instruments, currently 8 tracks from 101 to 109 \r\n// \r\n////////////////////////////\r\ninstr
+    DRUMS\r\n\r\niTickDur = p3\r\niTick = p4\r\niMod = iTick % giRhythmRatio\r\niMode
+    = i(gkStateMode)\r\n;prints \"Rhythm Tick! [%d] duration: %f, iMod: %d\\n\",
+    iTick, iTickDur, iMod\r\n\r\nif iMod != 0 then\r\n    ;prints \"\\t\\tNot playing
+    for iTick %d, turning off RHYTHM\", iTick\r\n    ; exit the instrument if we
+    don't have notes at this tick resolution\r\n    turnoff\r\nelse\r\n\r\n    iState
+    = iMode == 1 ? rnd(i(gkState)) : i(gkState)\r\n    iStep = int(iTick / giRhythmRatio)
+    % giRhythmLen\r\n    \r\n    ;prints \"DRUMS iStep: %d\", iStep\r\n    \r\n   
+    if iState < 0.5 then\r\n        iBlockLen lenarray giRhythm, 2\r\n    else\r\n       
+    iBlockLen lenarray giTenseRhythm, 2\r\n    endif\r\n    \r\n    ;prints \"\\n------------------------->
+    iBlockLen: %d\\n\", iBlockLen\r\n    \r\n    iCounter = 0\r\n    \r\n    while
+    iCounter < iBlockLen do\r\n        \r\n        iRnd = iState;= rnd(iState)\r\n       
+    \r\n        if (iRnd < 0.5) then\r\n            iInstr = giRhythm[iStep][iCounter][0]\r\n           
+    iVol = giRhythm[iStep][iCounter][1] * i(gkDrumsAmp)\r\n            iDur = giRhythm[iStep][iCounter][2]
+    * giRhythmRatio * iTickDur\r\n            iAmp = i(gkAmp) * iVol\r\n        else\r\n           
+    iInstr = giTenseRhythm[iStep][iCounter][0]\r\n            iVol = giTenseRhythm[iStep][iCounter][1]
+    * i(gkDrumsAmp)\r\n            iDur = giTenseRhythm[iStep][iCounter][2] * giRhythmRatio
+    * iTickDur\r\n            iAmp = i(gkAmp) * iVol\r\n        endif\r\n       
+    \r\n        iCounter += 1\r\n        ;prints \"\\niInstr: %d, iVol: %f, iDur:
+    %f, iAmp: %f\\n\", iInstr, iVol, iDur, iAmp\r\n        \r\n        if iInstr
+    >= 0 && iDur > 0 && iVol > 0 then\r\n            ;prints \"----> scheduling instr:
+    %d, iVol: %f, iDur: %f, iAmp: %f\\n\", 100 +iInstr, iVol, iDur, iAmp\r\n           
+    schedule 100 + iInstr, 0, iDur, iAmp\r\n        endif\r\n    od\r\n    \r\nendif\r\n\r\nendin\r\n\r\n\r\n////////////////////////////\r\n//\r\n//
+    CHORDS INSTRUMENT \r\n// \r\n////////////////////////////\r\ninstr CHORDS\r\n\r\niTickDur
+    = p3\r\niTick = p4\r\niMod = iTick % giChordsRatio\r\niMode = i(gkStateMode)\r\n;prints
+    \"Chords Tick! [%d] duration: %f, iMod: %d\\n\", iTick, iTickDur, iMod\r\n\r\nif
+    iMod != 0 then\r\n    ;prints \"\\t\\tNot playing for iTick %d, turning off CHORDS\",
+    iTick\r\n    ; exit the instrument if we don't have notes at this tick resolution\r\n   
+    turnoff\r\nelse\r\n\r\n    iState = iMode == 1 ? rnd(i(gkState)) : i(gkState)\r\n   
+    iStep = int(iTick / giChordsRatio) % giChordsLen\r\n    \r\n    ;prints \"CHORDS
+    iStep: %d\", iStep\r\n\r\n    if iState < 0.5 then\r\n        iBlockLen lenarray
+    giChords, 2\r\n    else\r\n        iBlockLen lenarray giTenseChords, 2\r\n   
+    endif\r\n    ;prints \"\\n-------------------------> iBlockLen: %d\\n\", iBlockLen\r\n   
+    \r\n    iCounter = 0\r\n    \r\n    \r\n    while iCounter < iBlockLen do\r\n       
+    \r\n        iRnd = iState;= rnd(iState)\r\n        \r\n        if (iRnd < 0.5)
+    then\r\n            iNote = giChords[iStep][iCounter][0]\r\n            iVol
+    = giChords[iStep][iCounter][1] ;* i(gkChordsAmp)\r\n            iDur = giChords[iStep][iCounter][2]
+    * giChordsRatio * iTickDur\r\n            ;iAmp = i(gkAmp) * iVol\r\n       
+    else\r\n            iNote = giTenseChords[iStep][iCounter][0]\r\n           
+    iVol = giTenseChords[iStep][iCounter][1]; * i(gkChordsAmp)\r\n            iDur
+    = giTenseChords[iStep][iCounter][2] * giChordsRatio * iTickDur\r\n           
+    ;iAmp = i(gkAmp) * iVol\r\n        endif\r\n        \r\n        iCounter += 1\r\n       
+    \r\n        if iNote >= 0 && iDur > 0 && iVol > 0 then\r\n            schedule
+    \"CHORDS_2\", 0, iDur, mtof:i(iNote), iVol\r\n        endif\r\n    od\r\n   
+    \r\nendif\r\n\r\nendin\r\n\r\n\r\n////////////////////////////\r\n//\r\n// MELODY
+    INSTRUMENT\r\n//\r\n// Basic VCO2 + Dynamic stochastic approach to waveform synthesis
+    conceived by Iannis Xenakis.\r\n// https://csound.com/manual/gendy.html\r\n//
+    \r\n////////////////////////////\r\ninstr MELODY_1\r\n\r\naEnv      linseg 0.1,
+    0.1, p4\r\n\r\naSig      vco2  p4, p5 ; VCO-style oscillator\r\naSig2     gendy
+    p4, 4, 1, 1, 1, p5 - k(5), p5 + k(5), 0.5, 0.5\r\nkSig2Mix = gkState > 0.5 ?
+    gkState - 0.5 : 0\r\naMix = (aSig + aSig2 * kSig2Mix) / 2\r\n\r\niRandPan = rnd(1)\r\n\r\ngaMelodyL
+    += aMix * aEnv * iRandPan\r\ngaMelodyR += aMix * aEnv * (1 - iRandPan)\r\n\r\nendin\r\n\r\n\r\n////////////////////////////\r\n//\r\n// 
+    MELODY_OUTPUT\r\n//  \r\n//  Heavily inspired by EXAMPLE 05A10_lpshold_loopseg.csd
+    by Iain McCurdy\r\n//\r\n//  https://flossmanual.csound.com/sound-modification/envelopes\r\n//\r\n// 
+    Generated melody is feeded into this instrument using global audio channels \r\n// 
+    so that we can apply long filter envelopes\r\n//\r\n////////////////////////////\r\ninstr
+    MELODY_OUTPUT\r\n    kAmp portk gkAmp, 0.01\r\n    kBtFreq   =            (gkBPM)/15 
+    ; frequency of each 1/16th note\r\n    kDecay    randomi      -10,10,0.2  ; decay
+    shape of the filter.\r\n    kCfBase   init 9       ;randomi      7,10, 0.2   
+    ; base filter frequency (oct format)\r\n    kCfEnv    randomi      0,4,0.2    
+    ; filter envelope depth\r\n    kRes      randomi      0.1,0.7, kBtFreq ; filter
+    resonance\r\n    kDist     randomi      0,1,0.1     ; amount of distortion\r\n   
+    \r\n    ; filter envelope\r\n    kCfOct    looptseg      kBtFreq, 0,0, (kCfBase
+    + kCfEnv), kDecay, 1, (kCfBase)\r\n    aFiltL    lpf18 gaMelodyL, cpsoct(kCfOct),
+    kRes, (kDist^2)*10 ; filter audioL\r\n    aFiltR    lpf18 gaMelodyR, cpsoct(kCfOct),
+    kRes, (kDist^2)*10 ; filter audioR\r\n    gaMelodyL      balance       aFiltL,gaMelodyL            
+    ; balance levels\r\n    gaMelodyR      balance       aFiltR,gaMelodyR            
+    ; balance levels\r\n    ;outs gaMelodyL * 0.99, gaMelodyR * 0.99\r\n    \r\n   
+    gaGlobalOutputL += gaMelodyL * kAmp\r\n    gaGlobalOutputR += gaMelodyR * kAmp\r\n   
+    \r\n    clear gaMelodyL, gaMelodyR\r\nendin\r\n\r\n\r\n////////////////////////////\r\n//\r\n//
+    BASS 1 INSTRUMENT\r\n//\r\n// 4 oscillators and lots of filters\r\n//\r\n// by
+    Ren\xE9 Nyffenegger\r\n//\r\n// http://www.adp-gmbh.ch/csound/instruments/bass01.html\r\n// 
+    \r\n////////////////////////////\r\ninstr BASS_1\r\n\r\n  ;prints \"\\nBASS_1
+    triggered\"\r\n  \r\n  kAmp   port gkBassAmp, 0.1\r\n  ifrq   init        p5\r\n 
+    ilen   init        p3\r\n  iamp   init        p4\r\n\r\n  k2    expseg 3000,
+    0.08, 9000, ilen, 1\r\n\r\n  ksweep = k2 - 3000\r\n  \r\n  a1    oscil    iamp
+    * 0.40, ifrq * 0.998 - .12, 1\r\n  a2    oscil    iamp * 0.40, ifrq * 1.002 -
+    .12, 2\r\n  a3    oscil    iamp * 0.40, ifrq * 1.002 - .12, 1\r\n  a4    oscil   
+    iamp * 0.70, ifrq - .24        , 2\r\n  \r\n  a5  = a1 + a2 + a3 + a4\r\n  a6   
+    butterlp  a5, ksweep\r\n  a7    butterlp  a6, ksweep\r\n  a8    butterhp  a7,
+    65  \r\n  a9    butterhp  a8, 65  \r\n  a10   butterlp  a9, 1000\r\n  asig  linen    
+    a10, 0.01, ilen - 0.02, 0.01\r\n  ;out   asig * kAmp;, asig * kAmp\r\n  \r\n 
+    gaGlobalOutputL += asig * kAmp\r\n  gaGlobalOutputR += asig * kAmp\r\n  \r\nendin\r\n\r\n\r\n////////////////////////////\r\n//\r\n//
+    BASS 2 INSTRUMENT\r\n//\r\n// Physical Model - A little out of tune :/\r\n//\r\n//
+    by Hans Mikelson\r\n// \r\n// https://www.csounds.com/mikelson/#waveguide\r\n//
+    \r\n//////////////////////////// \r\ninstr BASS_2\r\n\r\n  kAmp   port gkBassAmp,
+    0.1\r\n; Initializations\r\n  ifqc  = p5\r\n  ipluck  =    1/ifqc * .25\r\n 
+    kcount  init 0\r\n  adline  init 0\r\n  ablock2 init 0\r\n  ablock3 init 0\r\n 
+    afiltr  init 0\r\n  afeedbk init 0\r\n\r\n  koutenv linseg 0,.01,1,p3-.11,1,.1,0
+    ;Output envelope\r\n  kfltenv linseg 0, 1.5, 1, 1.5, 0 \r\n\r\n; This envelope
+    loads the string with a triangle wave.\r\n  kenvstr linseg 0,ipluck/4,-p4/2,ipluck/2,p4/2,ipluck/4,0,p3-ipluck,0\r\n\r\n 
+    aenvstr =     kenvstr\r\n  ainput  tone  aenvstr,200\r\n\r\n; DC Blocker\r\n 
+    ablock2 =     afeedbk-ablock3+.99*ablock2\r\n  ablock3 =     afeedbk\r\n  ablock 
+    =     ablock2\r\n\r\n; Delay line with filtered feedback\r\n  adline  delay ablock+ainput,1/ifqc-15/sr\r\n 
+    afiltr  tone  adline,400\r\n\r\n; Resonance of the body \r\n  abody1 reson afiltr,
+    110, 40\r\n  abody1 =     abody1/5000\r\n  abody2 reson afiltr, 70, 20\r\n  abody2
+    =     abody2/50000\r\n\r\n  afeedbk =     afiltr\r\n\r\n  aout    =     afeedbk\r\n 
+    \r\n  ares = 10*koutenv*(aout + kfltenv*(abody1 + abody2))\r\n  \r\n  ;outs ares
+    * kAmp, ares * kAmp\r\n  \r\n  gaGlobalOutputL += ares * kAmp\r\n  gaGlobalOutputR
+    += ares * kAmp\r\n  \r\nendin\r\n\r\n\r\n////////////////////////////\r\n//\r\n//
+    BASS 3\r\n//\r\n// coded by Oeyvind Brandtsegg 2000, revised 2002\r\n// \r\n//
+    FM bass synth with warm distortion, variation of \"FMBass1.csd\"\r\n// The 2-oscillator
+    FM setup gives some overtones and \"edge\" to the sine wave,\r\n// and the distortion
+    is used more for \"presence\" and \"edge\" than actual dist.\r\n// \r\n// midi
+    controller 2 is used to control modulation index,\r\n// giving more overtones
+    and presence\r\n// midi controller 1 is used to control distortion shaping,\r\n//
+    giving a more pronounced bass, with more enveloping, more attack\r\n//\r\n//
+    http://oeyvind.teks.no/frames/Csound.htm\r\n//\r\n////////////////////////////\r\ninstr\tBASS_3\r\n\r\n   
+    kAmp   port gkBassAmp, 0.1\r\n    kState port gkState, 0.1\r\n    ilen   init       
+    p3\r\n    ;inum\tnotnum\r\n    icps\tinit p5  ;cpsmidi\r\n    ;icps\t= icps/4\r\n   
+    iamp\tinit p4 / 20  ;ampmidi\t1500\r\n    kctrl1\tinit 0.2      ;ctrl7\t1, 1,
+    0, 1\t\t\t;ch1, midi ctrl1, min, max\r\n    kctrl2\tinit 0.3      ;ctrl7\t1,
+    2, 0, 1\t\t\t;ch1, midi ctrl1, min, max\r\n\r\n        klfo2\toscil\t0.5, 0.14
+    , giSine\t\r\n        klfo3\toscil\t0.5, 0.26 , giSine\r\n        klfo5\toscil\t0.5,
+    0.87 , giSine\r\n\r\n        klfo2\t= klfo2 + 0.5\r\n        klfo3\t= klfo3 +
+    0.5\r\n        klfo5\t= klfo5 + 0.5\r\n\r\n    kpregain\t= klfo2*5 + 2\r\n   
+    kpostgain\tinit 1\r\n    kpostgain\t= 1-(klfo2*0.5) - (kctrl1*0.5)\r\n    kshape1\t\t=
+    klfo5*0.2 + (kctrl1*5)\r\n    kshape2\t\t= kctrl1*10\r\n\r\n        a_amp\tlinen\tiamp,
+    0.001, ilen, 0.1\r\n        k_env2\tlinseg\t0, 0.01, 1, ilen, 0\r\n\r\n       
+    kfmndx\t= (klfo3 * 40) + (600*kctrl2) \t;fm index, amplitude of modulator\r\n\r\n       
+    a1\toscili\tkfmndx, icps*1.0,   giSine\r\n        afmcps\t= a1+icps\r\n       
+    a2\toscili\ta_amp,  afmcps, giSine\r\n        a2\tdistort1\ta2, kpregain, kpostgain,
+    kshape1, kshape2 *k_env2\r\n        aL = a2 * kAmp\r\n        aR = aL\r\n       
+    \r\n        ;outs\taL, aR  ; direct output to speakers without using buses\r\n       
+    \r\n        gaGlobalOutputL += aL\r\n        gaGlobalOutputR += aR\r\n       
+    \r\n        ; send a filtered version to delay and reverb buses\r\n        aFilt
+    butterhp aL, 100\r\n        gaGlobalDelayL += aFilt * rnd(kState) * 0.1\r\n       
+    gaGlobalDelayR += aFilt * rnd(kState) * 0.1\r\n        gaRevL += aFilt * 0.14\r\n       
+    gaRevR += aFilt * 0.14\r\n\r\nendin\r\n\r\n\r\n////////////////////////////\r\n//\r\n//
+    DRUMS INSTRUMENTS\r\n//\r\n// by Iain McCurdy\r\n//\r\n// http://iainmccurdy.org/CsoundRealtimeExamples/Cabbage/Instruments/DrumMachines/TR-808.csd\r\n//\r\n////////////////////////////\r\n\r\n////////////////////////////\r\n//\r\n//
+    BASS DRUM\r\n//\r\n////////////////////////////\r\ninstr\t101\r\n\tp3\t=\t2\t\t\t\t\t\t\t\t;NOTE
+    DURATION. SCALED USING GUI 'Decay' KNOB\r\n\t;SUSTAIN AND BODY OF THE SOUND\r\n\tkmul\ttranseg\t0.2,p3*0.5,-15,0.01,
+    p3*0.5,0,0\t\t\t\t\t;PARTIAL STRENGTHS MULTIPLIER USED BY GBUZZ. DECAYS FROM
+    A SOUND WITH OVERTONES TO A SINE TONE.\r\n\tkbend\ttranseg\t0.5,1.2,-4, 0,1,0,0\t\t\t\t\t\t;SLIGHT
+    PITCH BEND AT THE START OF THE NOTE \r\n\tasig\tgbuzz\t0.5,50*semitone(kbend),20,1,kmul,giCos\t\t\t\t;GBUZZ
+    TONE\r\n\taenv\ttranseg\t1,p3-0.004,-6,0\t\t\t\t\t\t\t;AMPLITUDE ENVELOPE FOR
+    SUSTAIN OF THE SOUND\r\n\taatt\tlinseg\t0,0.004,1\t\t\t\t\t\t\t;SOFT ATTACK\r\n\tasig\t=\tasig*aenv*aatt\r\n\r\n\t;HARD,
+    SHORT ATTACK OF THE SOUND\r\n\taenv\tlinseg\t1,0.07,0\t\t\t\t\t\t\t;AMPLITUDE
+    ENVELOPE (FAST DECAY)\t\t\t\t\t\t\r\n\tacps\texpsega\t400,0.07,0.001,1,0.001\t\t\t\t\t\t;FREQUENCY
+    OF THE ATTACK SOUND. QUICKLY GLISSES FROM 400 Hz TO SUB-AUDIO\r\n\taimp\toscili\taenv,acps,giSine\t\t\t\t\t\t;CREATE
+    ATTACK SOUND\r\n\t\r\n\tamix\t=\t((asig*0.5)+(aimp*0.35))*p4*0.95\t\t\t;MIX SUSTAIN
+    AND ATTACK SOUND ELEMENTS AND SCALE USING p4 (and again to 95%)\r\n\t\r\n\taL,aR\tpan2\tamix,0.5\t\t\t\t\t\t\t;PAN
+    THE MONOPHONIC SOUND\r\n    \r\n    aFiltL buthp aL, 100\r\n\taFiltR buthp aR,
+    100\r\n\t\r\n    \r\n    ; FX SEND\r\n\tkStut = 0.1 * rnd(gkState) ; randomise
+    stutter send based on gkState\r\n\tgaStutSendL += aFiltL * kStut\r\n\tgaStutSendR
+    += aFiltR * kStut\r\n\t\r\n\tkDel = 0.15 * rnd(gkState) ; randomise delay send\r\n\t\r\n\tgaGlobalDelayL
+    += aFiltL * kDel\r\n\tgaGlobalDelayR += aFiltR * kDel\r\n    \r\n;\tgaRevL =
+    gaRevL + aL * .1 ; send to reverb too?\r\n;\tgaRevR = gaRevR + aR * .12\r\n;\t\touts\taL,aR\t\t\t\t\t\t\t\t;SEND
+    AUDIO TO OUTPUTS\r\n\tgaDrumsL += aL              ; SEND TO DRUMS BUS\r\n\tgaDrumsR
+    += aR\r\nendin\r\n\r\n\r\n////////////////////////////\r\n//\r\n// SNARE DRUM\r\n//\r\n////////////////////////////\r\ninstr\t102\r\n\t;SOUND
+    CONSISTS OF TWO SINE TONES, AN OCTAVE APART AND A NOISE SIGNAL\r\n\tifrq  \t=\t342\t\t;FREQUENCY
+    OF THE TONES\r\n\tiNseDur\t=\t0.3\t\t;DURATION OF THE NOISE COMPONENT\r\n\tiPchDur\t=\t0.1\t\t;DURATION
+    OF THE SINE TONES COMPONENT\r\n\tp3\t=\tiNseDur \t;p3 DURATION TAKEN FROM NOISE
+    COMPONENT DURATION (ALWATS THE LONGEST COMPONENT)\r\n\t\r\n\t;SINE TONES COMPONENT\r\n\taenv1\texpseg\t1,iPchDur,0.0001,p3-iPchDur,0.0001\t\t;AMPLITUDE
+    ENVELOPE\r\n\tapitch1\toscili\t1,ifrq,giSine\t\t\t;SINE TONE 1\r\n\tapitch2\toscili\t0.25,ifrq*0.5,giSine\t\t;SINE
+    TONE 2 (AN OCTAVE LOWER)\r\n\tapitch\t=\t(apitch1+apitch2)*0.75\t\t\t\t;MIX THE
+    TWO SINE TONES\r\n\r\n\t;NOISE COMPONENT\r\n\taenv2\texpon\t1,p3,0.0005\t\t\t\t\t;AMPLITUDE
+    ENVELOPE\r\n\tanoise\tnoise\t0.75,0\t\t\t\t\t\t;CREATE SOME NOISE\r\n\tanoise\tbutbp\tanoise,10000,10000\t\t;BANDPASS
+    FILTER THE NOISE SIGNAL\r\n\tanoise\tbuthp\tanoise,1000\t\t\t\t\t;HIGHPASS FILTER
+    THE NOISE SIGNAL\r\n\tkcf\texpseg\t5000,0.1,3000,p3-0.2,3000\t\t\t;CUTOFF FREQUENCY
+    FOR A LOWPASS FILTER\r\n\tanoise\tbutlp\tanoise,kcf\t\t\t\t\t;LOWPASS FILTER
+    THE NOISE SIGNAL\r\n\tamix\t=\t((apitch*aenv1)+(anoise*aenv2))*p4\t\t;MIX AUDIO
+    SIGNALS AND SCALE ACCORDING TO GUI 'Level' CONTROL\r\n\taL,aR\tpan2\tamix,0.55\t\t\t\t\t\t;PAN
+    THE MONOPHONIC AUDIO SIGNAL\r\n\t;\touts\taL,aR\t\t\t\t\t\t;SEND AUDIO TO OUTPUTS\r\n   
+    gaDrumsL += aL              ; SEND TO DRUMS BUS\r\n\tgaDrumsR += aR\r\n\t\r\n   
+    ; FX SEND\r\n\tkStut = 0.9 * rnd(gkState) ; randomise stutter\r\n\tgaStutSendL
+    += aL * kStut\r\n\tgaStutSendR += aR * kStut\r\n\t\r\n\tkDel = 0.9 * rnd(gkState)
+    ; randomise delay send\r\n\tgaGlobalDelayL = gaGlobalDelayL + aL * kDel\r\n\tgaGlobalDelayR
+    = gaGlobalDelayR + aR * kDel\r\n\t\r\n\tgaRevL += aL * .3\r\n\tgaRevR += aR *
+    .4\r\nendin\r\n\r\n\r\n////////////////////////////\r\n//\r\n// CLOSED HIGH HAT\r\n//\r\n////////////////////////////\r\ninstr\t103\r\n\tkFrq1\t=\t296\t\t
+    \t;FREQUENCIES OF THE 6 OSCILLATORS\r\n\tkFrq2\t=\t285 \t\r\n\tkFrq3\t=\t365
+    \t\r\n\tkFrq4\t=\t348 \t\r\n\tkFrq5\t=\t420 \t\r\n\tkFrq6\t=\t835 \t\r\n\tidur\t=\t0.088\t\t\t;DURATION
+    OF THE NOTE\r\n\tp3\t=\tidur\r\n\r\n\tiactive\tactive\tp1-1\t\t\t;SENSE ACTIVITY
+    OF PREVIOUS INSTRUMENT (OPEN HIGH HAT) \r\n\tif iactive>0 then\t\t\t;IF 'OPEN
+    HIGH HAT' IS ACTIVE...\r\n\t turnoff2\tp1-1,0,0\t\t;TURN IT OFF (CLOSED HIGH
+    HAT TAKES PRESIDENCE)\r\n\tendif\r\n\r\n\t;PITCHED ELEMENT\r\n\taenv\texpsega\t1,idur,0.001,1,0.001\t\t;AMPLITUDE
+    ENVELOPE FOR THE PULSE OSCILLATORS\r\n\tipw\t=\t0.25\t\t\t\t;PULSE WIDTH\r\n\ta1\tvco2\t0.5,kFrq1,2,ipw\t\t\t;PULSE
+    OSCILLATORS...\t\t\t\r\n\ta2\tvco2\t0.5,kFrq2,2,ipw\r\n\ta3\tvco2\t0.5,kFrq3,2,ipw\r\n\ta4\tvco2\t0.5,kFrq4,2,ipw\r\n\ta5\tvco2\t0.5,kFrq5,2,ipw\r\n\ta6\tvco2\t0.5,kFrq6,2,ipw\r\n\tamix\tsum\ta1,a2,a3,a4,a5,a6\t\t;MIX
+    THE PULSE OSCILLATORS\r\n\tamix\treson\tamix,5000,5000,1\t\t;BANDPASS FILTER
+    THE MIXTURE\r\n\tamix\tbuthp\tamix,5000\t\t\t;HIGHPASS FILTER THE SOUND...\r\n\tamix\tbuthp\tamix,5000\t\t\t;...AND
+    AGAIN\r\n\tamix\t=\tamix*aenv\t\t\t;APPLY THE AMPLITUDE ENVELOPE\r\n\t\r\n\t;NOISE
+    ELEMENT\r\n\tanoise\tnoise\t0.8,0\t\t\t\t;GENERATE SOME WHITE NOISE\r\n\taenv\texpsega\t1,idur,0.001,1,0.001\t\t;CREATE
+    AN AMPLITUDE ENVELOPE\r\n\tkcf\texpseg\t20000,0.7,9000,idur-0.1,9000\t;CREATE
+    A CUTOFF FREQ. ENVELOPE\r\n\tanoise\tbutlp\tanoise,kcf\t\t\t;LOWPASS FILTER THE
+    NOISE SIGNAL\r\n\tanoise\tbuthp\tanoise,8000\t\t\t;HIGHPASS FILTER THE NOISE
+    SIGNAL\r\n\tanoise\t=\tanoise*aenv\t\t\t;APPLY THE AMPLITUDE ENVELOPE\r\n\t\r\n\t;MIX
+    PULSE OSCILLATOR AND NOISE COMPONENTS\r\n\tamix\t=\t(amix+anoise)*p4*0.65\r\n\taL,aR\tpan2\tamix,0.65\t\t\t;PAN
+    MONOPHONIC SIGNAL\r\n\t;\touts\taL,aR\t\t\t\t;SEND TO OUTPUTS\r\n\tgaDrumsL +=
+    aL              ; SEND TO DRUMS BUS\r\n\tgaDrumsR += aR\r\n\t\r\n    ; FX SEND\r\n\tkStut
+    = 0.85 * rnd(gkState) ; randomise stutter\r\n\tgaStutSendL += aL * kStut\r\n\tgaStutSendR
+    += aR * kStut\r\n\t\r\n\tkDel = 0.85 * rnd(gkState) ; randomise delay send\r\n\tgaGlobalDelayL
+    = gaGlobalDelayL + aL * kDel\r\n\tgaGlobalDelayR = gaGlobalDelayR + aR * kDel\r\n\t\r\n\tgaRevL
+    += aL * .15\r\n\tgaRevR += aR * .18\r\nendin\r\n\r\n\r\n////////////////////////////\r\n//\r\n//
+    OPEN HIGH HAT\r\n//\r\n////////////////////////////\r\ninstr\t104\r\n\tkFrq1\t=\t296
+    \t;FREQUENCIES OF THE 6 OSCILLATORS\r\n\tkFrq2\t=\t285 \t\r\n\tkFrq3\t=\t365
+    \t\r\n\tkFrq4\t=\t348 \t\r\n\tkFrq5\t=\t420 \t\r\n\tkFrq6\t=\t835 \t\r\n\tp3\t=\t0.5\t\t\t;DURATION
+    OF THE NOTE\r\n\t\r\n\t;SOUND CONSISTS OF 6 PULSE OSCILLATORS MIXED WITH A NOISE
+    COMPONENT\r\n\t;PITCHED ELEMENT\r\n\taenv\tlinseg\t1,p3-0.05,0.1,0.05,0\t\t;AMPLITUDE
+    ENVELOPE FOR THE PULSE OSCILLATORS\r\n\tipw\t=\t0.25\t\t\t\t;PULSE WIDTH\r\n\ta1\tvco2\t0.5,kFrq1,2,ipw\t\t\t;PULSE
+    OSCILLATORS...\r\n\ta2\tvco2\t0.5,kFrq2,2,ipw\r\n\ta3\tvco2\t0.5,kFrq3,2,ipw\r\n\ta4\tvco2\t0.5,kFrq4,2,ipw\r\n\ta5\tvco2\t0.5,kFrq5,2,ipw\r\n\ta6\tvco2\t0.5,kFrq6,2,ipw\r\n\tamix\tsum\ta1,a2,a3,a4,a5,a6\t\t;MIX
+    THE PULSE OSCILLATORS\r\n\tamix\treson\tamix,5000,5000,1\t\t;BANDPASS FILTER
+    THE MIXTURE\r\n\tamix\tbuthp\tamix,5000\t\t\t;HIGHPASS FILTER THE SOUND...\r\n\tamix\tbuthp\tamix,5000\t\t\t;...AND
+    AGAIN\r\n\tamix\t=\tamix*aenv\t\t\t;APPLY THE AMPLITUDE ENVELOPE\r\n\t\r\n\t;NOISE
+    ELEMENT\r\n\tanoise\tnoise\t0.8,0\t\t\t\t;GENERATE SOME WHITE NOISE\r\n\taenv\tlinseg\t1,p3-0.05,0.1,0.05,0\t\t;CREATE
+    AN AMPLITUDE ENVELOPE\r\n\tkcf\texpseg\t20000,0.7,9000,p3-0.1,9000\t;CREATE A
+    CUTOFF FREQ. ENVELOPE\r\n\tanoise\tbutlp\tanoise,kcf\t\t\t;LOWPASS FILTER THE
+    NOISE SIGNAL\r\n\tanoise\tbuthp\tanoise,8000\t\t\t;HIGHPASS FILTER THE NOISE
+    SIGNAL\r\n\tanoise\t=\tanoise*aenv\t\t\t;APPLY THE AMPLITUDE ENVELOPE\r\n\t\r\n\t;MIX
+    PULSE OSCILLATOR AND NOISE COMPONENTS\r\n\tamix\t=\t(amix+anoise)*p4*0.25\r\n\taL,aR\tpan2\tamix,0.65\t\t\t\t;PAN
+    MONOPHONIC SIGNAL\r\n\tgaDrumsL += aL              ; SEND TO DRUMS BUS\r\n\tgaDrumsR
+    += aR\r\n\t;outs\taL,aR\t\t\t\t;SEND TO OUTPUTS\r\n\t\r\n    ; FX SEND\r\n\tkStut
+    = 0.55 * rnd(gkState) ; randomise stutter\r\n\tgaStutSendL += aL * kStut\r\n\tgaStutSendR
+    += aR * kStut\r\n;\t\r\n\tgaRevL += aL * .15\r\n\tgaRevR += aR * .14\r\n\t\r\n\tkactive\tactive\tp1+1\t\t\t\t;CHECK
+    NUMBER OF ACTIVE INSTANCES OF CLOSED HIGH HAT INSTRUMENT\r\n\tif kactive>0 then\t\t\t       
+    ;IF HIGH-HAT CLOSED IS ACTIVE...\r\n\t turnoff\t\t\t\t            ;TURN OFF THIS
+    INSTRUMENT\r\n\tendif\r\nendin\r\n\r\n\r\n////////////////////////////\r\n//\r\n//
+    HIGH TOM\r\n//\r\n////////////////////////////\r\ninstr\t105\r\n\tifrq     \t=\t200\t\t\t\t;FREQUENCY\r\n\tp3\t 
+    \t=\t0.5\t\t\t\t;DURATION OF THIS NOTE\r\n\r\n\t;SINE TONE SIGNAL\r\n\taAmpEnv\ttranseg\t1,p3,-10,0.001\t\t\t\t;AMPLITUDE
+    ENVELOPE FOR SINE TONE SIGNAL\r\n\tafmod\texpsega\t5,0.125/ifrq,1,1,1\t\t\t;FREQUENCY
+    MODULATION ENVELOPE. GIVES THE TONE MORE OF AN ATTACK.\r\n\tasig\toscili\t-aAmpEnv*0.6,ifrq*afmod,giSine\t\t;SINE
+    TONE SIGNAL\r\n\r\n\t;NOISE SIGNAL\r\n\taEnvNse\ttranseg\t1,p3,-6,0.001\t\t\t\t;AMPLITUDE
+    ENVELOPE FOR NOISE SIGNAL\r\n\tanoise\tdust2\t0.4, 8000\t\t\t\t;GENERATE NOISE
+    SIGNAL\r\n\tanoise\treson\tanoise,400,800,1\t\t\t;BANDPASS FILTER THE NOISE SIGNAL\r\n\tanoise\tbuthp\tanoise,100\t\t\t\t;HIGHPASS
+    FILTER THE NOSIE SIGNAL\r\n\tanoise\tbutlp\tanoise,1000\t\t\t\t;LOWPASS FILTER
+    THE NOISE SIGNAL\r\n\tanoise\t=\tanoise * aEnvNse\t\t\t;SCALE NOISE SIGNAL WITH
+    AMPLITUDE ENVELOPE\r\n\t\r\n\t;MIX THE TWO SOUND COMPONENTS\r\n\tamix\t=\t(asig
+    + anoise)*p4\r\n\taL,aR\tpan2\tamix,0.35\t\t\t\t\t;PAN MONOPHONIC SIGNAL\r\n   
+    \r\n    gaDrumsL += aL                      ; SEND TO DRUMS BUS\r\n\tgaDrumsR
+    += aR\r\n\t;\touts\taL,aR\t\t\t\t\t;SEND AUDIO TO OUTPUTS\r\n\t\t\r\n    ; FX
+    SEND\r\n\tkStut = 0.5 * rnd(gkState) ; randomise stutter\r\n\tgaStutSendL +=
+    aL * kStut\r\n\tgaStutSendR += aR * kStut\r\n;\t\r\n;\tgaRevL = gaRevL + aL *
+    .1\r\n;\tgaRevR = gaRevR + aR * .1\r\nendin\r\n\r\n\r\n////////////////////////////\r\n//\r\n//
+    MID TOM\r\n//\r\n////////////////////////////\r\ninstr\t106\r\n\tifrq     \t=\t133\t\t
+    \t\t;FREQUENCY\r\n\tp3\t  \t=\t0.6\t\t\t\t;DURATION OF THIS NOTE\r\n\r\n\t;SINE
+    TONE SIGNAL\r\n\taAmpEnv\ttranseg\t1,p3,-10,0.001\t\t\t\t;AMPLITUDE ENVELOPE
+    FOR SINE TONE SIGNAL\r\n\tafmod\texpsega\t5,0.125/ifrq,1,1,1\t\t\t;FREQUENCY
+    MODULATION ENVELOPE. GIVES THE TONE MORE OF AN ATTACK.\r\n\tasig\toscili\t-aAmpEnv*0.6,ifrq*afmod,giSine\t\t;SINE
+    TONE SIGNAL\r\n\r\n\t;NOISE SIGNAL\r\n\taEnvNse\ttranseg\t1,p3,-6,0.001\t\t\t\t;AMPLITUDE
+    ENVELOPE FOR NOISE SIGNAL\r\n\tanoise\tdust2\t0.4, 8000\t\t\t\t;GENERATE NOISE
+    SIGNAL\r\n\tanoise\treson\tanoise, 400,800,1\t\t\t;BANDPASS FILTER THE NOISE
+    SIGNAL\r\n\tanoise\tbuthp\tanoise,100\t\t\t\t;HIGHPASS FILTER THE NOSIE SIGNAL\r\n\tanoise\tbutlp\tanoise,600\t\t\t\t;LOWPASS
+    FILTER THE NOISE SIGNAL\r\n\tanoise\t=\tanoise * aEnvNse\t\t\t;SCALE NOISE SIGNAL
+    WITH AMPLITUDE ENVELOPE\r\n\t\r\n\t;MIX THE TWO SOUND COMPONENTS\r\n\tamix\t=\t(asig
+    + anoise)*p4\r\n\taL,aR\tpan2\tamix,0.25\t\t\t\t\t;PAN MONOPHONIC SIGNAL\r\n\t;\touts\taL,aR\t\t\t\t\t;SEND
+    AUDIO TO OUTPUTS\r\n\tgaDrumsL += aL              ; SEND TO DRUMS BUS\r\n\tgaDrumsR
+    += aR\r\n\t\r\n    ; FX SEND\r\n\tkStut = 0.5 * rnd(gkState); randomise stutter\r\n\tgaStutSendL
+    += aL * kStut\r\n\tgaStutSendR += aR * kStut\r\n;\t\r\n;\tgaRevL = gaRevL + aL
+    * .1\r\n;\tgaRevR = gaRevR + aR * .1\r\nendin\r\n\r\n\r\n////////////////////////////\r\n//\r\n//
+    LOW TOM\r\n//\r\n////////////////////////////\r\ninstr\t107\r\n\tifrq     \t=\t90\t\t\t\t;FREQUENCY\r\n\tp3
+    \t \t=\t0.7\t\t \t\t;DURATION OF THIS NOTE\r\n\r\n\t;SINE TONE SIGNAL\r\n\taAmpEnv\ttranseg\t1,p3,-10,0.001\t\t\t\t;AMPLITUDE
+    ENVELOPE FOR SINE TONE SIGNAL\r\n\tafmod\texpsega\t5,0.125/ifrq,1,1,1\t\t\t;FREQUENCY
+    MODULATION ENVELOPE. GIVES THE TONE MORE OF AN ATTACK.\r\n\tasig\toscili\t-aAmpEnv*0.6,ifrq*afmod,giSine\t\t;SINE
+    TONE SIGNAL\r\n\r\n\t;NOISE SIGNAL\r\n\taEnvNse\ttranseg\t1,p3,-6,0.001\t\t\t\t;AMPLITUDE
+    ENVELOPE FOR NOISE SIGNAL\r\n\tanoise\tdust2\t0.4, 8000\t\t\t\t;GENERATE NOISE
+    SIGNAL\r\n\tanoise\treson\tanoise,40,800,1\t\t\t\t;BANDPASS FILTER THE NOISE
+    SIGNAL\r\n\tanoise\tbuthp\tanoise,100\t\t\t\t;HIGHPASS FILTER THE NOSIE SIGNAL\r\n\tanoise\tbutlp\tanoise,600\t\t\t\t;LOWPASS
+    FILTER THE NOISE SIGNAL\r\n\tanoise\t=\tanoise * aEnvNse\t\t\t;SCALE NOISE SIGNAL
+    WITH AMPLITUDE ENVELOPE\r\n\t\r\n\t;MIX THE TWO SOUND COMPONENTS\r\n\tamix\t=\t(asig
+    + anoise)*p4\r\n\taL,aR\tpan2\tamix,0.15\t\t\t\t;PAN MONOPHONIC SIGNAL\r\n\t;\touts\taL,aR\t\t\t\t\t   
+    ;SEND AUDIO TO OUTPUTS\r\n\tgaDrumsL += aL                          ; SEND TO
+    DRUMS BUS\r\n\tgaDrumsR += aR\r\n    \r\n    ; FX SEND\r\n\tkStut = 0.2 * rnd(gkState)
+    ; randomise stutter\r\n\tgaStutSendL += aL * kStut\r\n\tgaStutSendR += aR * kStut\r\n;\t\r\n;\tgaRevL
+    = gaRevL + aL * .1\r\n;\tgaRevR = gaRevR + aR * .1\r\nendin\r\n\r\n\r\n////////////////////////////\r\n//\r\n//
+    CYMBAL\r\n//\r\n////////////////////////////\r\ninstr\t108\t\r\n\tkFrq1\t=\t296
+    \t\t\t;FREQUENCIES OF THE 6 OSCILLATORS\r\n\tkFrq2\t=\t285\r\n\tkFrq3\t=\t365\r\n\tkFrq4\t=\t348    
+    \r\n\tkFrq5\t=\t420\r\n\tkFrq6\t=\t835\r\n\tp3\t=\t2\t\t\t;DURATION OF THE NOTE\r\n\r\n\t;SOUND
+    CONSISTS OF 6 PULSE OSCILLATORS MIXED WITH A NOISE COMPONENT\r\n\t;PITCHED ELEMENT\r\n\taenv\texpon\t1,p3,0.0001\t\t;AMPLITUDE
+    ENVELOPE FOR THE PULSE OSCILLATORS \r\n\tipw\t=\t0.25\t\t\t;PULSE WIDTH     
+    \r\n\ta1\tvco2\t0.5,kFrq1,2,ipw\t\t;PULSE OSCILLATORS...  \r\n\ta2\tvco2\t0.5,kFrq2,2,ipw\r\n\ta3\tvco2\t0.5,kFrq3,2,ipw\r\n\ta4\tvco2\t0.5,kFrq4,2,ipw\r\n\ta5\tvco2\t0.5,kFrq5,2,ipw                                                                  
+    \r\n\ta6\tvco2\t0.5,kFrq6,2,ipw\r\n\tamix\tsum\ta1,a2,a3,a4,a5,a6\t\t;MIX THE
+    PULSE OSCILLATORS\r\n\tamix\treson\tamix,5000,5000,1\t\t;BANDPASS FILTER THE
+    MIXTURE\r\n\tamix\tbuthp\tamix,10000\t\t\t;HIGHPASS FILTER THE SOUND\r\n\tamix\tbutlp\tamix,12000\t\t\t;LOWPASS
+    FILTER THE SOUND...\r\n\tamix\tbutlp\tamix,12000\t\t\t;AND AGAIN...\r\n\tamix\t=\tamix*aenv\t\t\t;APPLY
+    THE AMPLITUDE ENVELOPE\r\n\t\r\n\t;NOISE ELEMENT\r\n\tanoise\tnoise\t0.8,0\t\t\t\t;GENERATE
+    SOME WHITE NOISE\r\n\taenv\texpsega\t1,0.3,0.07,p3-0.1,0.00001\t;CREATE AN AMPLITUDE
+    ENVELOPE\r\n\tkcf\texpseg\t14000,0.7,7000,p3-0.1,5000\t;CREATE A CUTOFF FREQ.
+    ENVELOPE\r\n\tanoise\tbutlp\tanoise,kcf\t\t\t;LOWPASS FILTER THE NOISE SIGNAL\r\n\tanoise\tbuthp\tanoise,8000\t\t\t;HIGHPASS
+    FILTER THE NOISE SIGNAL\r\n\tanoise\t=\tanoise*aenv\t\t\t;APPLY THE AMPLITUDE
+    ENVELOPE            \r\n\r\n\t;MIX PULSE OSCILLATOR AND NOISE COMPONENTS\r\n\tamix\t=\t(amix+anoise)*p4*0.85\r\n\taL,aR\tpan2\tamix,0.05\t\t\t;PAN
+    MONOPHONIC SIGNAL\r\n\t\r\n\t;\touts\taL,aR\t\t\t\t;SEND TO OUTPUTS\r\n\tgaDrumsL
+    += aL              ; SEND TO DRUMS BUS\r\n\tgaDrumsR += aR\r\n\t\r\n\t; FX SEND\r\n\tkStut
+    = 0.1 * rnd(gkState) ; randomise stutter\r\n\tgaStutSendL = gaStutSendL + aL
+    * kStut\r\n\tgaStutSendR = gaStutSendR + aR * kStut\r\n\t\r\n\t;gaRevL = gaRevL
+    + aL * .3\r\n\t;gaRevR = gaRevR + aR * .4\r\nendin\r\n\r\n\r\n////////////////////////////\r\n//\r\n//
+    DRUMS OUTPUT INSTRUMENT\r\n//\r\n////////////////////////////\r\ninstr DRUMS_OUTPUT\r\n
+    \r\n    ;outs gaDrumsL * 0.99, gaDrumsR * 0.99\r\n    gaGlobalOutputL += gaDrumsL\r\n   
+    gaGlobalOutputR += gaDrumsR\r\n    \r\n    clear gaDrumsL, gaDrumsR\r\n    \r\nendin\r\n\r\n\r\n////////////////////////////\r\n//\r\n//
+    CHORDS 1 INSTRUMENT - NOT WORKING AS INTENDED YET, super heavy!\r\n//\r\n////////////////////////////\r\ninstr
+    CHORDS_1\r\n\r\n    iattack = 0.37\r\n    idecay = 0.2\r\n    isustain = 0.8\r\n   
+    irelease = 0.4\r\n    aenv madsr iattack, idecay, isustain, irelease\r\n    ifreq
+    = p4\r\n    iamp = p5\r\n\tasig poscil iamp, ifreq, giSine\r\n    asig = aenv
+    * asig * gkChordsAmp\r\n\taleft, aright pan2 asig, 0.5\r\n\t;outs aleft, aright\r\n\tgaGlobalOutputL
+    += aleft\r\n\tgaGlobalOutputR += aright\r\n\t\r\nendin\r\n\r\n\r\n////////////////////////////\r\n//\r\n//
+    CHORDS INSTRUMENT - CINEMATOGRAPHIC STRINGS (simplified)\r\n//\r\n// by Scott
+    Daughtrey\r\n//\r\n////////////////////////////\r\ninstr CHORDS_2\r\n\r\n   
+    kPhs  = trandom(1, 0, 1)\r\n    kAmp  = portk(gkChordsAmp, 0.01)\r\n    kState
+    = portk(gkState, 0.5)\r\n    ; saw(ramp)/pulse - positive side of waveform is
+    saw/ramp, negative is square\r\n    ; p4  = pitch (including detune [5-voice
+    \"unison\"] \r\n    ; p5  = amp\r\n    ; p6  = phase (0 - 1, randomized per trigger
+    event) \r\n\r\n    aEnv  = madsr(.29, 3.004, .31, .35)\r\n    iNyx  = .25 ; bandlimiting
+    value\r\n    ; pwm\r\n    kPw   = rspline(.5, .66, .3, .5) ; width of pos. part
+    of pulse cycle, based on how wide ramp wave will be   \r\n    aPwm1 = vco2(.7,
+    p4, 2, kPw, p6, iNyx)\r\n    kPw2  = rspline(.6, .7, .4, .6)\r\n    aPwm2 = vco2(.3,
+    p4 * 4, 2, kPw2, kPhs, iNyx)\r\n    ; ramp saw\r\n    aRamp = vco2(.7, p4, 20,
+    .99, kPhs, iNyx)\r\n    aRmp2 = vco2(.3, p4 * 2, 20, .99, kPhs, iNyx)\r\n   
+    \r\n    aMix1 = dcblock2(aRamp * (aPwm1 + .7) + (aPwm1 -.7), 256)\r\n    aMix2
+    = dcblock2(aRmp2 * (aPwm2 + .3) + (aPwm2 -.3), 256)\r\n    kQ    = adsr(.06,
+    4.358, .08, .06)/7\r\n    a1 moogvcf2 aMix1 * p5 * aEnv, 3000, .12 - kQ * .68\r\n   
+    a2 moogvcf2 aMix2 * p5 * aEnv, 4000, .12 - kQ * .68\r\n    iAmp  = .17 ; amp.
+    attenuation\r\n    a1L, a1R pan2 a1, rspline(0.35, 0.6, 0.1, .15)\r\n    a2L,
+    a2R pan2 a2, rspline(0.4, 0.75, 0.2, .3)\r\n    ;outs (a1 + a2), (a1 + a2)\r\n   
+    aL = (a1L + a2L) * kAmp * kState\r\n    aR = (a1R + a2R) * kAmp * kState\r\n   
+    ; the output of this instrument is directly in the chorus instrument\r\n    ;
+    that in turn will be feeded into the reverb instrument\r\n    gaChorusL  += aL\r\n   
+    gaChorusR  += aL\r\n    ; send this straight to the reverb too for an exponential
+    boost depending on kState\r\n    gaRevL += aL * kState\r\n    gaRevR += aR *
+    kState\r\n    gaGlobalDelayL += aL * 0.5\r\n    gaGlobalDelayR += aR * 0.5\r\nendin  
+    \r\n\r\n\r\ninstr GLOBAL_OUTPUT\r\n\r\n    kAmp portk gkAmp, 0.1\r\n    \r\n   
+    kthreshold = .5\r\n    icomp1 = 2\r\n    icomp2 = 3\r\n    irtime = 0.01\r\n   
+    iftime = 0.1\r\n    \r\n    aL = gaGlobalOutputL * kAmp\r\n    aR = gaGlobalOutputR
+    * kAmp\r\n    \r\n    ;aL dam aL, kthreshold, icomp1, icomp2, irtime, iftime\r\n   
+    ;aR dam aR, kthreshold, icomp1, icomp2, irtime, iftime\r\n    \r\n    ;outs gaGlobalOutputL
+    * kAmp, gaGlobalOutputR * kAmp\r\n    outs aL * 0.225, aR * 0.225\r\n    \r\n   
+    clear gaGlobalOutputL, gaGlobalOutputR\r\n    \r\nendin\r\n\r\n\r\n////////////////////////////\r\n//\r\n//
+    CHORUS FX\r\n//\r\n// Always active, uses global audio channels that are fed
+    into from chords\r\n//\r\n// Goes straight into Reverb\r\n// \r\n////////////////////////////\r\ninstr  
+    CHORUS\r\n\r\n    kMod  = lfo(3, .6) + 3\r\n    kMod2 = lfo(3, .65) + 3\r\n   
+    aDelL = vdelay(gaChorusL, 10 + kMod, 20)\r\n    aDelR = vdelay(gaChorusR, 10
+    + kMod2, 20)\r\n\r\n    ; goes into reverb\r\n    gaRevL  += gaChorusL * 0.95
+    + aDelL * .6\r\n    gaRevR  += gaChorusR * 0.95 + aDelR * .6\r\n\r\n    ;outs
+    gaChorusL * 0.95 + aDelL * .3, gaChorusR * 0.95 + aDelR * .3\r\n    clear gaChorusL,
+    gaChorusR\r\n    \r\nendin\r\n\r\n////////////////////////////\r\n//\r\n// REVERB
+    FX INSTRUMENT\r\n//\r\n// Always active, uses global audio channels that are
+    fed into from other instruments\r\n// \r\n////////////////////////////\r\ninstr
+    REVERB\r\n\r\n    ainL = gaRevL\r\n    ainR = gaRevR\r\n    \r\n    ; test\r\n   
+    ;aTest pinkish .8\r\n    ;ainL = aTest\r\n    ;ainR = aTest\r\n    \r\n    denorm
+    ainL\r\n    denorm ainR\r\n    ;arevL, arevR \tfreeverb  ainL, ainR, gkROOM,
+    gkHF\r\n\r\n    kRoom \t    port gkRoom, 0.1 ; port to the UI value in 0.1s\r\n   
+    kHF\t\t    port gkHF, 0.1\r\n    kRevLev \tport gkRevLev, 0.1\r\n    arevL, arevR
+    reverbsc ainL, ainR, kRoom * 0.995, kHF * sr / 2\r\n    \r\n    ;outs arevL *
+    kRevLev, arevR * kRevLev\t;  Audio to DAC -  REVERB out \t\r\n    gaGlobalOutputL
+    += arevL * kRevLev\r\n    gaGlobalOutputR += arevR * kRevLev\r\n    \r\n    ;outs
+    aTest * gkRevLev, aTest * gkRevLev\r\n    ;outs aTest, aTest\r\n    gaRevL =
+    0\r\n    gaRevR = 0\r\n    \r\nendin\r\n\r\n\r\n////////////////////////////\r\n//\r\n//
+    LEAD DELAY FX INSTRUMENT\r\n//\r\n// Always active, uses global audio channels
+    that are fed into from lead instrument\r\n// \r\n////////////////////////////\r\ninstr
+    LEAD_DELAY\r\n\r\n  iFdbackL =        0.6           ; left feedback ratio\r\n 
+    aDelayL  init     0             ; initialize delayed signal\r\n  aDelayL  delay   
+    gaDelayL + (aDelayL * iFdbackL), .35 ;delay in seconds\r\n  \r\n  iFdbackR =       
+    0.65          ; right feedback ratio\r\n  aDelayR  init     0             ; initialize
+    delayed signal\r\n  aDelayR  delay    gaDelayR + (aDelayR * iFdbackR), .3 ;delay
+    in seconds\r\n\r\n  aOutL    = gaDelayL + (aDelayL * 0.6)\r\n  aOutR    = gaDelayR
+    + (aDelayR * 0.6)\r\n  \r\n  ; lead delay goes also into reverb\r\n  gaRevL =
+    gaRevL + aOutL\r\n  gaRevR = gaRevR + aOutR\r\n  \r\n  ;outs(aOutL, aOutR)\r\n 
+    gaGlobalOutputL += aOutL\r\n  gaGlobalOutputR += aOutR\r\n  \r\n  gaDelayL =
+    0\r\n  gaDelayR = 0\r\n  \r\nendin\r\n\r\n\r\n////////////////////////////\r\n//\r\n//
+    GLOBAL DELAY FX INSTRUMENT \r\n//\r\n// Always active, uses global audio channels
+    that are fed into from other instruments\r\n// \r\n////////////////////////////\r\ninstr
+    GLOBAL_DELAY\r\n\r\n  INITIALIZATION:\r\n  \r\n  iState = i(gkState)\r\n  iRandFdbk
+    = rnd(iState)\r\n  iRandBeat = int(iRandFdbk * giTickSteps)\r\n  iBar = 60 /
+    i(gkBPM) * 4 ; 4/4 at BPM\r\n  iDelay init 0.25\r\n  iDelay = iBar / 16 ; default
+    1/16 of a bar ;* iRandBeat\r\n  \r\n  if iDelay > 0 then\r\n  \r\n      ;prints
+    \"iDelay: %f, iRandFdbk: %f, iRandBeat: %d\\n\", iDelay, iRandFdbk, iRandBeat\r\n 
+    \r\n      iFdbackL =        0.5 * iRandFdbk          ; left feedback ratio\r\n     
+    aDelayL  init     0                       ; initialize delayed signal\r\n     
+    aDelayL  delay    gaGlobalDelayL + (aDelayL * iFdbackL), iDelay ;delay in seconds\r\n 
+    \r\n      iFdbackR =        0.55  * iRandFdbk          ; right feedback ratio\r\n     
+    aDelayR  init     0                          ; initialize delayed signal\r\n     
+    aDelayR  delay    gaGlobalDelayR + (aDelayR * iFdbackR), iDelay ;delay in seconds\r\n\r\n     
+    rireturn\r\n  \r\n      aOutL    = gaGlobalDelayL + (aDelayL * 0.4)\r\n     
+    aOutR    = gaGlobalDelayR + (aDelayR * 0.4)\r\n  \r\n      ;outs(aOutL, aOutR)\r\n     
+    gaGlobalOutputL += aOutL\r\n      gaGlobalOutputR += aOutR\r\n        \r\n     
+    gaGlobalDelayL = 0\r\n      gaGlobalDelayR = 0\r\n  \r\n  endif\r\n  \r\n  kChanged
+    changed2 gkState, gkBPM\r\n  if kChanged == 1 then\r\n    reinit INITIALIZATION\r\n 
+    endif\r\n  \r\nendin\r\n\r\n\r\n////////////////////////////\r\n//\r\n// STUTTER
+    FX\r\n//\r\n// Always active, uses global audio channels that are fed into from
+    drums instruments\r\n// \r\n////////////////////////////\r\ninstr    STUTTER\r\n       
+    \r\n    ; input parameters for bbcut \r\n    ;; << 4/4 >>\r\n    initialization:\r\n   
+    \r\n    isubdiv        =    8\r\n    ibarlen        =    2     \r\n    iphrase       
+    =    8     \r\n    irepeats       =    4     \r\n    istutspd       =    4    
+    \r\n    istutchnc      =    1             \r\n    \r\n    kChanged = changed2(gkBPM)\r\n   
+    printk2 kChanged\r\n\r\n    if kChanged == 1 then\r\n        reinit initialization\r\n   
+    endif\r\n    \r\n    aL, aR    bbcuts    gaStutSendL, gaStutSendR,   i(gkBPM)/60,
+    isubdiv,  ibarlen,  iphrase, irepeats, istutspd, istutchnc\r\n    \r\n    rireturn\r\n  
+    \r\n    kRandPan rspline 0, 1, 60/gkBPM, 60/gkBPM * 4\r\n    \r\n    ;outs aL
+    * 0.95 * kRandPan, aR * 0.95 * (1 - kRandPan)\r\n    gaGlobalOutputL += aL *
+    0.95 * kRandPan\r\n    gaGlobalOutputR += aR * 0.95 * (1 - kRandPan)\r\n    \r\n   
+    clear gaStutSendL\r\n    clear gaStutSendR\r\n\r\nendin\r\n\r\n\r\n////////////////////////////\r\n//\r\n//
+    UPDATE SCALE INSTRUMENT\r\n//\r\n// Updates the current scale using the string
+    passed as p4\r\n// \r\n////////////////////////////\r\ninstr UPDATE_SCALE\r\n\r\n   
+    Scale = p4\r\n    set_scale(Scale)\r\n\r\n    turnoff ; turns itself off\r\n\r\nendin\r\n\r\n\r\n////////////////////////////\r\n//\r\n//
+    UI INSTRUMENT\r\n//\r\n// Continuously (well, every 10ms) updates the variables
+    coming from an external software\r\n// \r\n////////////////////////////\r\ninstr
+    UI\r\n\r\n    // check every 10 ms\r\n    kCheck metro 10\r\n\r\n    if kCheck
+    == 1 then\r\n\r\n        gkAmp   chnget \"amp\"\r\n        gkBPM   chnget \"bpm\"\r\n       
+    gkState chnget \"state\"\r\n        gkStateMode chnget \"stateMode\"\r\n       
+    gkMelodyAmp chnget \"melodyAmp\"\r\n        gkBassAmp   chnget \"bassAmp\"\r\n       
+    gkDrumsAmp  chnget \"drumsAmp\"\r\n        gkChordsAmp chnget \"chordsAmp\"\r\n\r\n       
+    gkLeadAmp   chnget \"leadAmp\"\r\n        gkLeadGlide chnget \"leadGlide\"\r\n       
+    gkLeadNote  chnget \"leadNote\"\r\n        gkLeadWave  chnget \"leadWave\"\r\n       
+    \r\n        gkLeadFiltFreq      chnget \"leadFiltFreq\"\r\n        gkLeadFiltRes      
+    chnget \"leadFiltRes\"\r\n        gkLeadFiltLFOToggle chnget \"leadFiltLFOToggle\"\r\n       
+    gkLeadFiltLFOFreq   chnget \"leadFiltLFOFreq\"\r\n        \r\n        ;printks
+    \"gkLeadWave: %f, gkLeadFiltFreq: %f\\n\", 0.1, gkLeadWave, gkLeadFiltFreq\r\n   
+    endif\r\n\r\nendin\r\n\r\n</CsInstruments>\r\n<CsScore>\r\n;causes Csound to
+    run for about 7000 years...\r\nf0 z\r\n\r\n// ALWAYS ON INSTRUMENTS\r\ni\"MELODY_OUTPUT\"
+    0 z\r\ni\"DRUMS_OUTPUT\" 0 z\r\ni\"GLOBAL_OUTPUT\" 0 z\r\ni\"REVERB\" 0 z\r\ni\"LEAD_DELAY\"
+    0 z\r\ni\"GLOBAL_DELAY\" 0 z\r\ni\"STUTTER\" 0 z\r\ni\"CHORUS\" 0 z\r\ni\"UI\"
+    0 z\r\n\r\n; TEST TRIGGERS\r\n;i\"INITIALIZATION\" 3 z\r\n;i\"GENERATOR\" 4 z\r\n;i2
+    0 z\r\n;i1 0 z\r\n;i\"UPDATE_SCALE\" 3 0.1 \"mix\"\r\n;i\"UPDATE_SCALE\" 6 0.1
+    \"phry\"\r\n\r\n</CsScore>\r\n</CsoundSynthesizer>"
+  _csoundFileName: SequencerXP.csd
+  _csoundAsset: {fileID: 102900000, guid: 40f9cb91283000b4097160f5fccb04dd, type: 3}
+  _channels:
+  - type: form
+    channel: 
+    text: 
+    caption: Sequencer Experiment
+    min: 0
+    max: 0
+    value: 0
+    skew: 0
+    increment: 0
+    options: []
+  - type: rslider
+    channel: bpm
+    text: BPM
+    caption: 
+    min: 1
+    max: 240
+    value: 120
+    skew: 1
+    increment: 1
+    options: []
+  - type: rslider
+    channel: amp
+    text: Global Amp
+    caption: 
+    min: 0
+    max: 2
+    value: 0.75
+    skew: 1
+    increment: 1
+    options: []
+  - type: rslider
+    channel: state
+    text: State Fader
+    caption: 
+    min: 0
+    max: 1
+    value: 0
+    skew: 1
+    increment: 1
+    options: []
+  - type: checkbox
+    channel: stateMode
+    text: State Fader Mode T/R
+    caption: 
+    min: 0
+    max: 0
+    value: 0
+    skew: 0
+    increment: 0
+    options: []
+  - type: rslider
+    channel: melodyAmp
+    text: Melody Amp
+    caption: 
+    min: 0
+    max: 1
+    value: 0.35
+    skew: 1
+    increment: 1
+    options: []
+  - type: rslider
+    channel: bassAmp
+    text: Bass Amp
+    caption: 
+    min: 0
+    max: 1
+    value: 0.2
+    skew: 1
+    increment: 1
+    options: []
+  - type: rslider
+    channel: drumsAmp
+    text: Drums Amp
+    caption: 
+    min: 0
+    max: 1
+    value: 0.94
+    skew: 1
+    increment: 1
+    options: []
+  - type: rslider
+    channel: chordsAmp
+    text: Chords Amp
+    caption: 
+    min: 0
+    max: 1
+    value: 0.2
+    skew: 1
+    increment: 1
+    options: []
+  - type: vslider
+    channel: leadNote
+    text: Lead Note
+    caption: 
+    min: 24
+    max: 84
+    value: 60
+    skew: 1
+    increment: 1
+    options: []
+  - type: vslider
+    channel: leadWave
+    text: Lead Wave
+    caption: 
+    min: 0.01
+    max: 1
+    value: 0.25
+    skew: 1
+    increment: 1
+    options: []
+  - type: vslider
+    channel: leadFiltLFOFreq
+    text: FiltLFOFreq
+    caption: 
+    min: 0
+    max: 8
+    value: 0
+    skew: 1
+    increment: 1
+    options: []
+  - type: checkbox
+    channel: leadFiltLFOToggle
+    text: Filter LFO ON/OFF
+    caption: 
+    min: 0
+    max: 0
+    value: 1
+    skew: 0
+    increment: 0
+    options: []
+  - type: rslider
+    channel: leadAmp
+    text: Lead Amp
+    caption: 
+    min: 0
+    max: 1
+    value: 0.35
+    skew: 1
+    increment: 1
+    options: []
+  - type: rslider
+    channel: leadGlide
+    text: Lead Glide
+    caption: 
+    min: 0
+    max: 1
+    value: 0.015
+    skew: 1
+    increment: 1
+    options: []
+  - type: rslider
+    channel: leadFiltFreq
+    text: Filter Freq
+    caption: 
+    min: 0
+    max: 3000
+    value: 1200
+    skew: 1
+    increment: 1
+    options: []
+  - type: rslider
+    channel: leadFiltRes
+    text: Filter Res
+    caption: 
+    min: 0
+    max: 0.35
+    value: 0.1
+    skew: 1
+    increment: 1
+    options: []
+  _availableAudioChannels: []
+  _drawCsoundString: 0
+  _drawTestScore: 0
+  _drawSettings: 1
+  _drawChannels: 1
+  _drawAudioChannels: 0
+  _drawPresets: 0
+  _drawPresetsLoad: 0
+  _drawPresetsSave: 0
+  _drawPresetsImport: 0
+  _showRuntimeEnvironmentPath: 1
+  _currentPreset: 
+  _currentPresetSaveFolder: 
+  _currentPresetLoadFolder: 
+--- !u!82 &1407308625
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1407308623}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1407308626
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1407308623}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!120 &1407308628
+LineRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1407308623}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Positions:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 1}
+  m_Parameters:
+    serializedVersion: 3
+    widthMultiplier: 0.02
+    widthCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    colorGradient:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_ColorSpace: -1
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    numCornerVertices: 0
+    numCapVertices: 0
+    alignment: 0
+    textureMode: 0
+    textureScale: {x: 1, y: 1}
+    shadowBias: 0.5
+    generateLightingData: 0
+  m_MaskInteraction: 0
+  m_UseWorldSpace: 1
+  m_Loop: 0
+  m_ApplyActiveColorSpace: 1
+--- !u!114 &1407308629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1407308623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e8689188f8623c40856357bcc9d043d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _listenerSettings: 0
+  _source: {fileID: 0}
+  _sizeMult: {x: 0.08, y: 0.7}
+  _offset: {x: -23, y: -9.14, z: 12.9}
+  _maxHeight: 111.2
+--- !u!114 &1407308630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1407308623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9c35cb887773ba4f91d7f45ff433b3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _csound: {fileID: 1407308624}
+  _ticks: 32
+  _numberOfBars: 16
+  _sets:
+  - {fileID: 11400000, guid: e6359f0ad6869114d986b13795c1226a, type: 2}
+  - {fileID: 11400000, guid: 6c511d25ff039b741999512b648d4638, type: 2}
+  - {fileID: 11400000, guid: 950a19d448e456046876de0aa4f9ba1b, type: 2}
+  _currentSet: 0
+  _currentScale: pentmin
+--- !u!1660057539 &9223372036854775807
+SceneRoots:
+  m_ObjectHideFlags: 0
+  m_Roots:
+  - {fileID: 963194228}
+  - {fileID: 705507995}
+  - {fileID: 1407308626}
